@@ -1,0 +1,75 @@
+name: پیکین — آپدیت قیمت و تخفیفات
+
+on:
+  schedule:
+    # هر روز ساعت 6 صبح — تخفیفات
+    - cron: '0 3 * * *'
+    # هر 5 روز ساعت 7 صبح — قیمت‌ها
+    - cron: '0 4 */5 * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'deals | prices | all'
+        required: true
+        default: 'all'
+
+jobs:
+  update-deals:
+    name: آپدیت تخفیفات
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 3 * * *'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run deals scraper
+        run: python scraper_headless.py --mode deals
+        env:
+          PICKIN_API: ${{ secrets.PICKIN_API }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/deals_latest.json
+          git diff --staged --quiet || git commit -m "🏷️ آپدیت تخفیفات — $(date '+%Y-%m-%d')"
+          git push
+
+  update-prices:
+    name: آپدیت قیمت‌ها
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 4 */5 * *'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run prices scraper
+        run: python scraper_headless.py --mode prices
+        env:
+          PICKIN_API: ${{ secrets.PICKIN_API }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices_latest.json
+          git diff --staged --quiet || git commit -m "💰 آپدیت قیمت‌ها — $(date '+%Y-%m-%d')"
+          git push
