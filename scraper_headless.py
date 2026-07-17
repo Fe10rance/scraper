@@ -200,15 +200,15 @@ def get_price(url):
         return fetch_price_generic(url)
 
 def fetch_prices():
-    """دریافت همه محصولات از API سایت و آپدیت قیمت"""
     log("دریافت لیست محصولات از سایت...")
     try:
         secret = os.environ.get("PICKIN_SECRET", "PICKIN_SCRAPER_SECRET_2026")
-        resp = requests.get(f"{SITE_API}?action=getProductsForScraper&secret={secret}", timeout=15)
+        url    = f"{SITE_API}?action=getProductsForScraper&secret={secret}"
+        log(f"درخواست به: {url[:60]}...")
+        resp   = requests.get(url, headers=HEADERS, timeout=15)
+        log(f"HTTP status: {resp.status_code}")
+        log(f"Response: {resp.text[:100]}")
         products = resp.json()
-    except Exception as e:
-        log(f"❌ خطا در دریافت محصولات: {e}")
-        return []
     except Exception as e:
         log(f"❌ خطا در دریافت محصولات: {e}")
         return []
