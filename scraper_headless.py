@@ -117,7 +117,6 @@ def fetch_deals(max_products=100):
 
 # ===== قیمت از سایت‌های مختلف =====
 def fetch_price_digikala(url):
-    """قیمت از API دیجی‌کالا"""
     try:
         m = re.search(r'dkp-(\d+)', url)
         if not m:
@@ -128,18 +127,29 @@ def fetch_price_digikala(url):
         if resp.status_code != 200:
             return None
         data     = resp.json()
-        variants = data.get("data", {}).get("product", {}).get("variants", [])
-        prices   = []
+        # ساختار جدید API
+        product  = data.get("data", {}).get("product", {})
+        variants = product.get("variants", [])
+        if not variants:
+            # روش دوم
+            default_variant = product.get("default_variant", {})
+            price_info = default_variant.get("price", {}) if default_variant else {}
+            price = (price_info.get("selling_price", 0) or 0) // 10
+            if price > 0:
+                fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                return f"{price:,}".replace(",","،").translate(fa_d)
+            return None
+        prices = []
         for v in variants:
             p = v.get("price", {})
-            selling = p.get("selling_price", 0) or 0
+            selling = (p.get("selling_price", 0) or 0) // 10
             if selling > 0:
-                prices.append(selling // 10)
+                prices.append(selling)
         if prices:
             n    = min(prices)
-            fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-            return f"{n:,}".replace(",", "،").translate(fa_d)
-    except:
+            fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+            return f"{n:,}".replace(",","،").translate(fa_d)
+    except Exception as e:
         pass
     return None
 
