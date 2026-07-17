@@ -123,7 +123,7 @@ def fetch_price_digikala(url):
             return None
         product_id = m.group(1)
         api_url    = f"https://api.digikala.com/v2/product/{product_id}/"
-        resp       = requests.get(api_url, headers=HEADERS, timeout=10)
+        resp       = requests.get(api_url, headers=HEADERS, timeout=8)
         if resp.status_code != 200:
             return None
         data     = resp.json()
@@ -156,7 +156,7 @@ def fetch_price_digikala(url):
 def fetch_price_technolife(url):
     """قیمت از تکنولایف"""
     try:
-        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=10)
+        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=8)
         if resp.status_code != 200:
             return None
         # پیدا کردن قیمت از JSON-LD
@@ -246,7 +246,7 @@ def fetch_prices():
         else:
             log(f"  ⚠️ قیمت یافت نشد")
 
-        time.sleep(2)  # جلوگیری از ban
+        time.sleep(1)  # جلوگیری از ban
 
     log(f"✅ {len(results)} قیمت آپدیت شد")
     return results
