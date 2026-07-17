@@ -36,10 +36,11 @@ jobs:
         env:
           PICKIN_API: ${{ secrets.PICKIN_API }}
 
-      - name: Commit & Push
+- name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add data/deals_latest.json
           git diff --staged --quiet || git commit -m "🏷️ آپدیت تخفیفات — $(date '+%Y-%m-%d')"
           git push
@@ -66,10 +67,11 @@ jobs:
         env:
           PICKIN_API: ${{ secrets.PICKIN_API }}
 
-      - name: Commit & Push
+- name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add data/prices_latest.json
           git diff --staged --quiet || git commit -m "💰 آپدیت قیمت‌ها — $(date '+%Y-%m-%d')"
           git push
