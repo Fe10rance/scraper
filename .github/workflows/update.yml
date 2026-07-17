@@ -37,8 +37,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add data/deals_latest.json
+          git stash
+          git pull --rebase origin main
+          git stash pop
           git diff --staged --quiet || git commit -m "🏷️ آپدیت تخفیفات — $(date '+%Y-%m-%d')"
           git push
 
@@ -67,7 +69,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add data/prices_latest.json
+          git stash
+          git pull --rebase origin main
+          git stash pop
           git diff --staged --quiet || git commit -m "💰 آپدیت قیمت‌ها — $(date '+%Y-%m-%d')"
           git push
