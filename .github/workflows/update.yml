@@ -42,9 +42,12 @@ jobs:
           git diff --staged --quiet || git commit -m "deals update $(date '+%Y-%m-%d')"
           git push || true
 
+
+
   update-prices:
     name: update-prices
     runs-on: ubuntu-latest
+    needs: update-deals
     timeout-minutes: 30
     if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 4 */5 * *'
     steps:
@@ -69,6 +72,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/prices_latest.json
-          git pull --rebase origin main || true
-          git diff --staged --quiet || git commit -m "prices update $(date '+%Y-%m-%d')"
-          git push || true
+          git commit -m "prices update $(date '+%Y-%m-%d')" || true
+          git pull --rebase origin main
+          git push
