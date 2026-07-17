@@ -204,8 +204,11 @@ def fetch_prices():
     log("دریافت لیست محصولات از سایت...")
     try:
         secret = os.environ.get("PICKIN_SECRET", "PICKIN_SCRAPER_SECRET_2026")
-resp = requests.get(f"{SITE_API}?action=getProductsForScraper&secret={secret}", timeout=15)
+        resp = requests.get(f"{SITE_API}?action=getProductsForScraper&secret={secret}", timeout=15)
         products = resp.json()
+    except Exception as e:
+        log(f"❌ خطا در دریافت محصولات: {e}")
+        return []
     except Exception as e:
         log(f"❌ خطا در دریافت محصولات: {e}")
         return []
