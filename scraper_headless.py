@@ -115,6 +115,114 @@ def fetch_deals(max_products=100):
     log(f"✅ {len(results)} محصول تخفیف‌دار استخراج شد")
     return results[:max_products]
 
+
+
+
+# ===== تکنوآف تکنولایف =====
+def fetch_technooff(max_products=50, log_fn=None):
+    import re
+    from bs4 import BeautifulSoup
+
+    if log_fn: log_fn("دریافت تکنوآف تکنولایف...", "info")
+    results = []
+    page    = 1
+
+    while len(results) < max_products:
+        try:
+            url  = f"https://www.technolife.com/product/list/special/special?page={page}&sort=order-desc"
+            resp = requests.get(url, headers=HEADERS, timeout=15)
+            if resp.status_code != 200:
+                break
+
+            soup  = BeautifulSoup(resp.text, 'html.parser')
+
+            # محصولات
+            cards = soup.select('a[href*="/product-"]')
+            found = 0
+
+            for card in cards:
+                try:
+                    href  = card.get('href', '')
+                    if not href or '/product-list' in href:
+                        continue
+
+                    title_el = card.select_one('h2') or card.select_one('[class*="title"]')
+                    if not title_el:
+                        continue
+                    title = title_el.get_text(strip=True)
+                    if not title or len(title) < 5:
+                        continue
+
+                    url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
+
+                    img_el = card.select_one('img')
+                    image  = ''
+                    if img_el:
+                        image = img_el.get('src') or img_el.get('data-src', '')
+                        if image and not image.startswith('http'):
+                            image = f"https://www.technolife.com{image}"
+
+                    # قیمت‌ها
+                    text = card.get_text(' ', strip=True)
+                    prices_raw = re.findall(r'([\d,،]+)\s*تومان', text)
+                    prices = []
+                    for pr in prices_raw:
+                        clean = pr.replace(',', '').replace('،', '')
+                        n = int(clean) if clean.isdigit() else 0
+                        if 100_000 <= n <= 9_999_999_999:
+                            prices.append(n)
+
+                    if len(prices) < 2:
+                        continue
+
+                    price_num    = min(prices)
+                    old_price    = max(prices)
+                    discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
+
+                    if discount_pct < 1:
+                        continue
+
+                    def fmt(n):
+                        fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                        return f"{n:,}".replace(",","،").translate(fa_d)
+
+                    results.append({
+                        "title":            title,
+                        "url":              url_p,
+                        "image_url":        image,
+                        "price":            fmt(price_num),
+                        "original_price":   fmt(old_price),
+                        "discount_percent": discount_pct,
+                        "seller":           "تکنولایف",
+                        "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    })
+                    found += 1
+
+                except:
+                    continue
+
+            if log_fn: log_fn(f"صفحه {page}: {found} محصول — جمع: {len(results)}", "info")
+
+            if found == 0:
+                break
+            page += 1
+            time.sleep(1)
+
+        except Exception as e:
+            if log_fn: log_fn(f"❌ {e}", "error")
+            break
+
+    results.sort(key=lambda x: x.get("discount_percent", 0), reverse=True)
+    if log_fn: log_fn(f"✅ {len(results)} تکنوآف استخراج شد", "ok")
+    return results[:max_products]
+
+
+
+
+
+
+
+
 # ===== قیمت از سایت‌های مختلف =====
 def fetch_price_digikala(url):
     try:
@@ -263,6 +371,14 @@ def main():
         path  = OUTPUT_DIR / "deals_latest.json"
         path.write_text(json.dumps(deals, ensure_ascii=False, indent=2), encoding="utf-8")
         log(f"ذخیره شد: {path}")
+
+    if args.mode in ("technooff", "all"):
+        log("=== استخراج تکنوآف تکنولایف ===")
+        technooff = fetch_technooff(max_products=50, log_fn=log)
+        path = OUTPUT_DIR / "technooff_latest.json"
+        path.write_text(json.dumps(technooff, ensure_ascii=False, indent=2), encoding="utf-8")
+        log(f"ذخیره شد: {path}")
+        
 
     if args.mode in ("prices", "all"):
         log("=== آپدیت قیمت‌ها ===")
