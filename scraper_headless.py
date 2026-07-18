@@ -37,7 +37,7 @@ def fetch_deals(max_products=100):
 
     while len(results) < max_products:
         try:
-            url  = "https://api.digikala.com/v1/incredible-offers/products/?page=" + str(page) + "&sort=20"
+            url = "https://api.digikala.com/v1/incredible-offers/products/?category_id=5966&page=" + str(page) + "&sort=20"
             resp = requests.get(url, headers=HEADERS, timeout=15)
             if resp.status_code != 200:
                 log(f"HTTP {resp.status_code} — توقف")
