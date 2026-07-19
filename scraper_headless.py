@@ -120,9 +120,6 @@ def fetch_deals(max_products=100):
 
 # ===== تکنوآف تکنولایف =====
 def fetch_technooff(max_products=50, log_fn=None):
-    from bs4 import BeautifulSoup
-
-    if log_fn: log_fn("دریافت تکنوآف تکنولایف...", "info" if callable(log_fn) else None)
     results = []
     page    = 1
 
@@ -131,74 +128,60 @@ def fetch_technooff(max_products=50, log_fn=None):
             url  = f"https://www.technolife.com/product/list/special/special?page={page}&sort=order-desc"
             resp = requests.get(url, headers=HEADERS, timeout=15)
             if resp.status_code != 200:
+                log(f"HTTP {resp.status_code}")
                 break
 
-            soup  = BeautifulSoup(resp.text, 'html.parser')
+            html = resp.text
+            fa2en = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+
+            # استخراج لینک‌های محصول
+            product_links = re.findall(r'href="(https://www\.technolife\.com/product-\d+/[^"]*)"', html)
+            product_links = list(dict.fromkeys(product_links))  # حذف تکراری
+
+            # استخراج عنوان‌ها از h2
+            titles = re.findall(r'<h2[^>]*>(.*?)</h2>', html, re.DOTALL)
+            titles = [re.sub(r'<[^>]+>', '', t).strip() for t in titles if t.strip()]
+
+            # استخراج تصاویر
+            images = re.findall(r'src="(https://www\.technolife\.com/image/small_product[^"]*)"', html)
+
+            # استخراج قیمت‌ها
+            html_en = html.translate(fa2en)
+            price_blocks = re.findall(r'(\d{1,3}(?:,\d{3})+)(?:\s*</?\w+[^>]*>)*\s*(?:\d{1,3}(?:,\d{3})+)?[^<]*تومان', html_en)
+
+            # جفت‌کردن
+            all_prices = re.findall(r'(\d{1,3}(?:,\d{3})+)', html_en)
+            prices_filtered = [int(p.replace(',','')) for p in all_prices if 100_000 <= int(p.replace(',','')) <= 9_999_999_999]
+
             found = 0
-
-            # هر بلوک محصول شامل یه link با href="/product-XXXXX/..."
-            links = soup.find_all('a', href=lambda h: h and '/product-' in h and 'product-list' not in h)
-
-            # گروه‌بندی: هر محصول یه تصویر + عنوان h2 + قیمت دارد
-            seen = set()
-            for link in links:
-                href = link.get('href', '')
-                if href in seen:
+            for i, link in enumerate(product_links[:max_products]):
+                title = titles[i] if i < len(titles) else ''
+                image = images[i] if i < len(images) else ''
+                if not title:
                     continue
 
-                # عنوان از h2 داخل link یا پیدا کردن h2 بعدی
-                h2 = link.find('h2')
-                if not h2:
-                    continue
-                title = h2.get_text(strip=True)
-                if not title or len(title) < 5:
-                    continue
+                # پیدا کردن دو قیمت متوالی در html
+                pos   = html_en.find(link.replace('https://www.technolife.com',''))
+                chunk = html_en[pos:pos+1000] if pos > -1 else ''
+                plist = [int(p.replace(',','')) for p in re.findall(r'(\d{1,3}(?:,\d{3})+)', chunk) if 100_000 <= int(p.replace(',','')) <= 9_999_999_999]
 
-                seen.add(href)
-                url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
-
-                # تصویر
-                img_el = link.find('img')
-                image  = ''
-                if img_el:
-                    image = img_el.get('src') or img_el.get('data-src', '')
-                    if image and not image.startswith('http'):
-                        image = f"https://www.technolife.com{image}"
-
-                # قیمت‌ها — بعد از link در متن صفحه
-                # پیدا کردن parent container
-                container = link.parent
-                if not container:
-                    continue
-                text = container.get_text(' ', strip=True)
-
-                # استخراج اعداد قیمت
-                fa2en = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
-                text_en = text.translate(fa2en)
-                price_matches = re.findall(r'(\d{1,3}(?:,\d{3})+)', text_en)
-                prices = []
-                for pm in price_matches:
-                    n = int(pm.replace(',', ''))
-                    if 100_000 <= n <= 9_999_999_999:
-                        prices.append(n)
-
-                if len(prices) < 2:
+                if len(plist) < 2:
                     continue
 
-                price_num    = min(prices)
-                old_price    = max(prices)
+                price_num    = min(plist[:3])
+                old_price    = max(plist[:3])
                 discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
 
                 if discount_pct < 1:
                     continue
 
                 def fmt(n):
-                    fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-                    return f"{n:,}".replace(",", "،").translate(fa_d)
+                    fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                    return f"{n:,}".replace(",","،").translate(fa_d)
 
                 results.append({
                     "title":            title,
-                    "url":              url_p,
+                    "url":              link,
                     "image_url":        image,
                     "price":            fmt(price_num),
                     "original_price":   fmt(old_price),
@@ -207,11 +190,8 @@ def fetch_technooff(max_products=50, log_fn=None):
                     "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 })
                 found += 1
-                if len(results) >= max_products:
-                    break
 
             log(f"صفحه {page}: {found} محصول — جمع: {len(results)}")
-
             if found == 0:
                 break
             page += 1
@@ -219,13 +199,13 @@ def fetch_technooff(max_products=50, log_fn=None):
 
         except Exception as e:
             log(f"❌ {e}")
+            import traceback
+            log(traceback.format_exc())
             break
 
     results.sort(key=lambda x: x.get("discount_percent", 0), reverse=True)
     log(f"✅ {len(results)} تکنوآف استخراج شد")
     return results[:max_products]
-
-
 
 
 
