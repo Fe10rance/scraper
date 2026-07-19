@@ -26,7 +26,7 @@ HEADERS = {
     "Accept-Language": "fa-IR,fa;q=0.9,en;q=0.8",
 }
 
-def log(msg):
+def log(msg, *args):
     print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
 
 # ===== تخفیفات دیجی‌کالا =====
