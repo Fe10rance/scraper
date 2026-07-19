@@ -362,7 +362,7 @@ def fetch_prices():
 # ===== Main =====
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["deals", "prices", "all"], default="all")
+    parser.add_argument("--mode", choices=["deals", "prices", "technooff", "all"], default="all")
     args = parser.parse_args()
 
     if args.mode in ("deals", "all"):
