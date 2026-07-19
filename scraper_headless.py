@@ -120,58 +120,60 @@ def fetch_deals(max_products=100):
 
 # ===== تکنوآف تکنولایف =====
 def fetch_technooff(max_products=50, log_fn=None):
+    from playwright.sync_api import sync_playwright
+    import re
+
     results = []
-    page    = 1
 
-    while len(results) < max_products:
-        try:
-            url  = f"https://www.technolife.com/product/list/special/special?page={page}&sort=order-desc"
-            resp = requests.get(url, headers=HEADERS, timeout=15)
-            if resp.status_code != 200:
-                log(f"HTTP {resp.status_code}")
-                break
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page    = browser.new_page()
+        pg      = 1
 
-            html = resp.text
-            fa2en = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+        while len(results) < max_products:
+            url = f"https://www.technolife.com/product/list/special/special?page={pg}&sort=order-desc"
+            log(f"صفحه {pg}...")
+            page.goto(url, timeout=30000)
+            page.wait_for_timeout(3000)  # صبر برای JS
 
-            # استخراج لینک‌های محصول
-            product_links = re.findall(r'href="(https://www\.technolife\.com/product-\d+/[^"]*)"', html)
-            product_links = list(dict.fromkeys(product_links))  # حذف تکراری
-
-            # استخراج عنوان‌ها از h2
-            titles = re.findall(r'<h2[^>]*>(.*?)</h2>', html, re.DOTALL)
-            titles = [re.sub(r'<[^>]+>', '', t).strip() for t in titles if t.strip()]
-
-            # استخراج تصاویر
-            images = re.findall(r'src="(https://www\.technolife\.com/image/small_product[^"]*)"', html)
-
-            # استخراج قیمت‌ها
-            html_en = html.translate(fa2en)
-            price_blocks = re.findall(r'(\d{1,3}(?:,\d{3})+)(?:\s*</?\w+[^>]*>)*\s*(?:\d{1,3}(?:,\d{3})+)?[^<]*تومان', html_en)
-
-            # جفت‌کردن
-            all_prices = re.findall(r'(\d{1,3}(?:,\d{3})+)', html_en)
-            prices_filtered = [int(p.replace(',','')) for p in all_prices if 100_000 <= int(p.replace(',','')) <= 9_999_999_999]
-
+            # استخراج محصولات
+            cards = page.query_selector_all('a[href*="/product-"]')
             found = 0
-            for i, link in enumerate(product_links[:max_products]):
-                title = titles[i] if i < len(titles) else ''
-                image = images[i] if i < len(images) else ''
+            seen  = set()
+
+            for card in cards:
+                href = card.get_attribute('href') or ''
+                if not href or href in seen or 'product-list' in href:
+                    continue
+                seen.add(href)
+
+                h2 = card.query_selector('h2')
+                if not h2:
+                    continue
+                title = h2.inner_text().strip()
                 if not title:
                     continue
 
-                # پیدا کردن دو قیمت متوالی در html
-                pos   = html_en.find(link.replace('https://www.technolife.com',''))
-                chunk = html_en[pos:pos+1000] if pos > -1 else ''
-                plist = [int(p.replace(',','')) for p in re.findall(r'(\d{1,3}(?:,\d{3})+)', chunk) if 100_000 <= int(p.replace(',','')) <= 9_999_999_999]
+                url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
 
-                if len(plist) < 2:
+                img = card.query_selector('img')
+                image = img.get_attribute('src') if img else ''
+
+                # قیمت از parent
+                parent = card.evaluate('el => el.closest("li") || el.closest("div[class*=product]") || el.parentElement')
+                text   = card.evaluate('el => (el.closest("li") || el.parentElement).innerText')
+
+                fa2en = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+                text_en = text.translate(fa2en)
+                prices = [int(p.replace(',','')) for p in re.findall(r'(\d{1,3}(?:,\d{3})+)', text_en)
+                          if 100_000 <= int(p.replace(',','')) <= 9_999_999_999]
+
+                if len(prices) < 2:
                     continue
 
-                price_num    = min(plist[:3])
-                old_price    = max(plist[:3])
+                price_num    = min(prices)
+                old_price    = max(prices)
                 discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
-
                 if discount_pct < 1:
                     continue
 
@@ -181,7 +183,7 @@ def fetch_technooff(max_products=50, log_fn=None):
 
                 results.append({
                     "title":            title,
-                    "url":              link,
+                    "url":              url_p,
                     "image_url":        image,
                     "price":            fmt(price_num),
                     "original_price":   fmt(old_price),
@@ -190,23 +192,19 @@ def fetch_technooff(max_products=50, log_fn=None):
                     "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 })
                 found += 1
+                if len(results) >= max_products:
+                    break
 
-            log(f"صفحه {page}: {found} محصول — جمع: {len(results)}")
+            log(f"صفحه {pg}: {found} محصول — جمع: {len(results)}")
             if found == 0:
                 break
-            page += 1
-            time.sleep(1)
+            pg += 1
 
-        except Exception as e:
-            log(f"❌ {e}")
-            import traceback
-            log(traceback.format_exc())
-            break
+        browser.close()
 
     results.sort(key=lambda x: x.get("discount_percent", 0), reverse=True)
     log(f"✅ {len(results)} تکنوآف استخراج شد")
     return results[:max_products]
-
 
 
 
