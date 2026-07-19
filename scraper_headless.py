@@ -120,10 +120,9 @@ def fetch_deals(max_products=100):
 
 # ===== تکنوآف تکنولایف =====
 def fetch_technooff(max_products=50, log_fn=None):
-    import re
     from bs4 import BeautifulSoup
 
-    if log_fn: log_fn("دریافت تکنوآف تکنولایف...", "info")
+    if log_fn: log_fn("دریافت تکنوآف تکنولایف...", "info" if callable(log_fn) else None)
     results = []
     page    = 1
 
@@ -135,73 +134,83 @@ def fetch_technooff(max_products=50, log_fn=None):
                 break
 
             soup  = BeautifulSoup(resp.text, 'html.parser')
-
-            # محصولات
-            cards = soup.select('a[href*="/product-"]')
             found = 0
 
-            for card in cards:
-                try:
-                    href  = card.get('href', '')
-                    if not href or '/product-list' in href:
-                        continue
+            # هر بلوک محصول شامل یه link با href="/product-XXXXX/..."
+            links = soup.find_all('a', href=lambda h: h and '/product-' in h and 'product-list' not in h)
 
-                    title_el = card.select_one('h2') or card.select_one('[class*="title"]')
-                    if not title_el:
-                        continue
-                    title = title_el.get_text(strip=True)
-                    if not title or len(title) < 5:
-                        continue
-
-                    url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
-
-                    img_el = card.select_one('img')
-                    image  = ''
-                    if img_el:
-                        image = img_el.get('src') or img_el.get('data-src', '')
-                        if image and not image.startswith('http'):
-                            image = f"https://www.technolife.com{image}"
-
-                    # قیمت‌ها
-                    text = card.get_text(' ', strip=True)
-                    prices_raw = re.findall(r'([\d,،]+)\s*تومان', text)
-                    prices = []
-                    for pr in prices_raw:
-                        clean = pr.replace(',', '').replace('،', '')
-                        n = int(clean) if clean.isdigit() else 0
-                        if 100_000 <= n <= 9_999_999_999:
-                            prices.append(n)
-
-                    if len(prices) < 2:
-                        continue
-
-                    price_num    = min(prices)
-                    old_price    = max(prices)
-                    discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
-
-                    if discount_pct < 1:
-                        continue
-
-                    def fmt(n):
-                        fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
-                        return f"{n:,}".replace(",","،").translate(fa_d)
-
-                    results.append({
-                        "title":            title,
-                        "url":              url_p,
-                        "image_url":        image,
-                        "price":            fmt(price_num),
-                        "original_price":   fmt(old_price),
-                        "discount_percent": discount_pct,
-                        "seller":           "تکنولایف",
-                        "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                    })
-                    found += 1
-
-                except:
+            # گروه‌بندی: هر محصول یه تصویر + عنوان h2 + قیمت دارد
+            seen = set()
+            for link in links:
+                href = link.get('href', '')
+                if href in seen:
                     continue
 
-            if log_fn: log_fn(f"صفحه {page}: {found} محصول — جمع: {len(results)}", "info")
+                # عنوان از h2 داخل link یا پیدا کردن h2 بعدی
+                h2 = link.find('h2')
+                if not h2:
+                    continue
+                title = h2.get_text(strip=True)
+                if not title or len(title) < 5:
+                    continue
+
+                seen.add(href)
+                url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
+
+                # تصویر
+                img_el = link.find('img')
+                image  = ''
+                if img_el:
+                    image = img_el.get('src') or img_el.get('data-src', '')
+                    if image and not image.startswith('http'):
+                        image = f"https://www.technolife.com{image}"
+
+                # قیمت‌ها — بعد از link در متن صفحه
+                # پیدا کردن parent container
+                container = link.parent
+                if not container:
+                    continue
+                text = container.get_text(' ', strip=True)
+
+                # استخراج اعداد قیمت
+                fa2en = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+                text_en = text.translate(fa2en)
+                price_matches = re.findall(r'(\d{1,3}(?:,\d{3})+)', text_en)
+                prices = []
+                for pm in price_matches:
+                    n = int(pm.replace(',', ''))
+                    if 100_000 <= n <= 9_999_999_999:
+                        prices.append(n)
+
+                if len(prices) < 2:
+                    continue
+
+                price_num    = min(prices)
+                old_price    = max(prices)
+                discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
+
+                if discount_pct < 1:
+                    continue
+
+                def fmt(n):
+                    fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
+                    return f"{n:,}".replace(",", "،").translate(fa_d)
+
+                results.append({
+                    "title":            title,
+                    "url":              url_p,
+                    "image_url":        image,
+                    "price":            fmt(price_num),
+                    "original_price":   fmt(old_price),
+                    "discount_percent": discount_pct,
+                    "seller":           "تکنولایف",
+                    "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                })
+                found += 1
+                if len(results) >= max_products:
+                    break
+
+            log(f"صفحه {page}: {found} محصول — جمع: {len(results)}")
 
             if found == 0:
                 break
@@ -209,11 +218,11 @@ def fetch_technooff(max_products=50, log_fn=None):
             time.sleep(1)
 
         except Exception as e:
-            if log_fn: log_fn(f"❌ {e}", "error")
+            log(f"❌ {e}")
             break
 
     results.sort(key=lambda x: x.get("discount_percent", 0), reverse=True)
-    if log_fn: log_fn(f"✅ {len(results)} تکنوآف استخراج شد", "ok")
+    log(f"✅ {len(results)} تکنوآف استخراج شد")
     return results[:max_products]
 
 
