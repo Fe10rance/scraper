@@ -42,10 +42,7 @@ jobs:
           git diff --staged --quiet || git commit -m "deals update $(date '+%Y-%m-%d')"
           git push || true
 
-
-
-
-update-technooff:
+  update-technooff:
     name: update-technooff
     runs-on: ubuntu-latest
     needs: update-deals
@@ -74,14 +71,10 @@ update-technooff:
           git diff --staged --quiet || git commit -m "technooff update $(date '+%Y-%m-%d')"
           git push || true
 
-
-
-
-
   update-prices:
     name: update-prices
     runs-on: ubuntu-latest
-    needs: update-deals
+    needs: update-technooff
     timeout-minutes: 30
     if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 4 */5 * *'
     steps:
@@ -100,50 +93,13 @@ update-technooff:
         run: python scraper_headless.py --mode prices
         env:
           PICKIN_API: ${{ secrets.PICKIN_API }}
+          PICKIN_SECRET: ${{ secrets.PICKIN_SECRET }}
 
       - name: Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/prices_latest.json
-          git commit -m "prices update $(date '+%Y-%m-%d')" || true
-          git pull --rebase origin main
-          git push
-
-
-
-
-
-
-
-
-
-
-update-technooff:
-    name: update-technooff
-    runs-on: ubuntu-latest
-    needs: update-deals
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 3 * * *'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
-      - name: Run scraper
-        run: python scraper_headless.py --mode technooff
-
-      - name: Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/technooff_latest.json
           git pull --rebase origin main || true
-          git diff --staged --quiet || git commit -m "technooff update $(date '+%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "prices update $(date '+%Y-%m-%d')"
           git push || true
