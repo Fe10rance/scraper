@@ -57,15 +57,13 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
         run: pip install playwright beautifulsoup4 requests
-      
+
       - name: Install browser
         run: playwright install chromium
-      
+
       - name: Run scraper
         run: python scraper_headless.py --mode technooff
-
 
       - name: Push
         run: |
