@@ -145,6 +145,13 @@ def fetch_technooff(max_products=50, log_fn=None):
             log(f"کل لینک‌ها: {len(all_links)}")
             product_links = page.query_selector_all('a[href*="/product-"]')
             log(f"لینک‌های product: {len(product_links)}")
+            for i, card in enumerate(product_links[:3]):
+            href = card.get_attribute('href') or ''
+            log(f"لینک {i}: {href[:60]}")
+            h2 = card.query_selector('h2')
+            log(f"  h2: {h2.inner_text() if h2 else 'NOT FOUND'}")
+            text = card.evaluate('el => el.innerText')
+            log(f"  text[:100]: {text[:100]}")
             
             # استخراج محصولات
             cards = page.query_selector_all('a[href*="/product-"]')
