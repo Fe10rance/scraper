@@ -136,6 +136,18 @@ def fetch_technooff(max_products=50, log_fn=None):
             page.goto(url, timeout=30000)
             page.wait_for_timeout(3000)  # صبر برای JS
 
+
+            # debug — HTML رو ذخیره کن
+debug_path = OUTPUT_DIR / "technooff_debug.html"
+debug_path.write_text(page.content(), encoding="utf-8")
+log(f"HTML ذخیره شد: {debug_path}")
+
+# تعداد کل لینک‌ها
+all_links = page.query_selector_all('a')
+log(f"کل لینک‌ها: {len(all_links)}")
+product_links = page.query_selector_all('a[href*="/product-"]')
+log(f"لینک‌های product: {len(product_links)}")
+            
             # استخراج محصولات
             cards = page.query_selector_all('a[href*="/product-"]')
             found = 0
