@@ -119,7 +119,7 @@ def fetch_deals(max_products=100):
 
 
 # ===== تکنوآف تکنولایف =====
-def fetch_technooff(max_products=50, log_fn=None):
+def fetch_technooff(max_products=50):
     from playwright.sync_api import sync_playwright
     import re
 
@@ -134,83 +134,88 @@ def fetch_technooff(max_products=50, log_fn=None):
             url = f"https://www.technolife.com/product/list/special/special?page={pg}&sort=order-desc"
             log(f"صفحه {pg}...")
             page.goto(url, timeout=30000)
-            page.wait_for_timeout(3000)  # صبر برای JS
-            # debug — HTML رو ذخیره کن
-            debug_path = OUTPUT_DIR / "technooff_debug.html"
-            debug_path.write_text(page.content(), encoding="utf-8")
-            log(f"HTML ذخیره شد: {debug_path}")
+            page.wait_for_timeout(4000)
 
-            # تعداد کل لینک‌ها
-            all_links = page.query_selector_all('a')
-            log(f"کل لینک‌ها: {len(all_links)}")
             product_links = page.query_selector_all('a[href*="/product-"]')
             log(f"لینک‌های product: {len(product_links)}")
-            for i, card in enumerate(product_links[:3]):
-            href = card.get_attribute('href') or ''
-            log(f"لینک {i}: {href[:60]}")
-            h2 = card.query_selector('h2')
-            log(f"  h2: {h2.inner_text() if h2 else 'NOT FOUND'}")
-            text = card.evaluate('el => el.innerText')
-            log(f"  text[:100]: {text[:100]}")
-            
-            # استخراج محصولات
-            cards = page.query_selector_all('a[href*="/product-"]')
+
+            # debug اول لینک
+            for i, card in enumerate(product_links[:2]):
+                href = card.get_attribute('href') or ''
+                h2   = card.query_selector('h2')
+                txt  = card.evaluate('el => el.innerText')
+                log(f"[{i}] href={href[:50]} h2={h2.inner_text()[:30] if h2 else 'N/A'} text={txt[:80]}")
+
             found = 0
             seen  = set()
 
-            for card in cards:
-                href = card.get_attribute('href') or ''
-                if not href or href in seen or 'product-list' in href:
+            for card in product_links:
+                try:
+                    href = card.get_attribute('href') or ''
+                    if not href or href in seen or 'product-list' in href:
+                        continue
+                    seen.add(href)
+
+                    # عنوان
+                    h2 = card.query_selector('h2')
+                    if not h2:
+                        # تلاش برای پیدا کردن عنوان با selector دیگه
+                        h2 = card.query_selector('[class*="title"]') or card.query_selector('[class*="name"]')
+                    if not h2:
+                        continue
+                    title = h2.inner_text().strip()
+                    if not title or len(title) < 3:
+                        continue
+
+                    url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
+
+                    # تصویر
+                    img   = card.query_selector('img')
+                    image = ''
+                    if img:
+                        image = img.get_attribute('src') or img.get_attribute('data-src') or ''
+                        if image and not image.startswith('http'):
+                            image = f"https://www.technolife.com{image}"
+
+                    # قیمت از parent container
+                    text = card.evaluate('el => { let p = el.closest("li") || el.closest("article") || el.closest("[class*=item]") || el.parentElement; return p ? p.innerText : el.innerText; }')
+
+                    fa2en   = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+                    text_en = text.translate(fa2en)
+                    prices  = []
+                    for m in re.finditer(r'(\d{1,3}(?:,\d{3})+)', text_en):
+                        n = int(m.group().replace(',', ''))
+                        if 100_000 <= n <= 9_999_999_999:
+                            prices.append(n)
+
+                    if len(prices) < 2:
+                        continue
+
+                    price_num    = min(prices)
+                    old_price    = max(prices)
+                    discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
+                    if discount_pct < 1:
+                        continue
+
+                    def fmt(n):
+                        fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
+                        return f"{n:,}".replace(",", "،").translate(fa_d)
+
+                    results.append({
+                        "title":            title,
+                        "url":              url_p,
+                        "image_url":        image,
+                        "price":            fmt(price_num),
+                        "original_price":   fmt(old_price),
+                        "discount_percent": discount_pct,
+                        "seller":           "تکنولایف",
+                        "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    })
+                    found += 1
+                    if len(results) >= max_products:
+                        break
+                except Exception as e:
                     continue
-                seen.add(href)
-
-                h2 = card.query_selector('h2')
-                if not h2:
-                    continue
-                title = h2.inner_text().strip()
-                if not title:
-                    continue
-
-                url_p = href if href.startswith('http') else f"https://www.technolife.com{href}"
-
-                img = card.query_selector('img')
-                image = img.get_attribute('src') if img else ''
-
-                # قیمت از parent
-                parent = card.evaluate('el => el.closest("li") || el.closest("div[class*=product]") || el.parentElement')
-                text   = card.evaluate('el => (el.closest("li") || el.parentElement).innerText')
-
-                fa2en = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
-                text_en = text.translate(fa2en)
-                prices = [int(p.replace(',','')) for p in re.findall(r'(\d{1,3}(?:,\d{3})+)', text_en)
-                          if 100_000 <= int(p.replace(',','')) <= 9_999_999_999]
-
-                if len(prices) < 2:
-                    continue
-
-                price_num    = min(prices)
-                old_price    = max(prices)
-                discount_pct = round((old_price - price_num) / old_price * 100) if old_price > price_num else 0
-                if discount_pct < 1:
-                    continue
-
-                def fmt(n):
-                    fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
-                    return f"{n:,}".replace(",","،").translate(fa_d)
-
-                results.append({
-                    "title":            title,
-                    "url":              url_p,
-                    "image_url":        image,
-                    "price":            fmt(price_num),
-                    "original_price":   fmt(old_price),
-                    "discount_percent": discount_pct,
-                    "seller":           "تکنولایف",
-                    "extracted_at":     datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                })
-                found += 1
-                if len(results) >= max_products:
-                    break
 
             log(f"صفحه {pg}: {found} محصول — جمع: {len(results)}")
             if found == 0:
@@ -224,146 +229,6 @@ def fetch_technooff(max_products=50, log_fn=None):
     return results[:max_products]
 
 
-
-
-
-# ===== قیمت از سایت‌های مختلف =====
-def fetch_price_digikala(url):
-    try:
-        m = re.search(r'dkp-(\d+)', url)
-        if not m:
-            return None
-        product_id = m.group(1)
-        api_url    = f"https://api.digikala.com/v2/product/{product_id}/"
-        resp       = requests.get(api_url, headers=HEADERS, timeout=8)
-        if resp.status_code != 200:
-            return None
-        data     = resp.json()
-        # ساختار جدید API
-        product  = data.get("data", {}).get("product", {})
-        variants = product.get("variants", [])
-        if not variants:
-            # روش دوم
-            default_variant = product.get("default_variant", {})
-            price_info = default_variant.get("price", {}) if default_variant else {}
-            price = (price_info.get("selling_price", 0) or 0) // 10
-            if price > 0:
-                fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
-                return f"{price:,}".replace(",","،").translate(fa_d)
-            return None
-        prices = []
-        for v in variants:
-            p = v.get("price", {})
-            selling = (p.get("selling_price", 0) or 0) // 10
-            if selling > 0:
-                prices.append(selling)
-        if prices:
-            n    = min(prices)
-            fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
-            return f"{n:,}".replace(",","،").translate(fa_d)
-    except Exception as e:
-        pass
-    return None
-
-def fetch_price_technolife(url):
-    """قیمت از تکنولایف"""
-    try:
-        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=8)
-        if resp.status_code != 200:
-            return None
-        # پیدا کردن قیمت از JSON-LD
-        matches = re.findall(r'"price"\s*:\s*"?(\d+)"?', resp.text)
-        prices  = [int(m) for m in matches if 1000 < int(m) < 999_999_999_999]
-        if prices:
-            n    = min(prices) // 10
-            fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-            return f"{n:,}".replace(",", "،").translate(fa_d)
-    except:
-        pass
-    return None
-
-def fetch_price_generic(url):
-    """قیمت عمومی از متن صفحه"""
-    try:
-        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=12)
-        if resp.status_code != 200:
-            return None
-        fa   = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
-        text = resp.text.translate(fa)
-        # JSON-LD
-        for m in re.finditer(r'"price"\s*:\s*"?(\d+)"?', text):
-            n = int(m.group(1))
-            if 10000 <= n <= 9_999_999_999:
-                n    = n // 10 if n > 100_000_000 else n
-                fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-                return f"{n:,}".replace(",", "،").translate(fa_d)
-        # تومان
-        for pat in [r"(\d{1,3}(?:[,،]\d{3})+)\s*تومان", r"(\d{6,10})\s*تومان"]:
-            m = re.search(pat, resp.text)
-            if m:
-                raw = m.group(1).replace("،", "").replace(",", "")
-                n   = int(raw)
-                if 10000 <= n <= 999_999_999:
-                    fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-                    return f"{n:,}".replace(",", "،").translate(fa_d)
-    except:
-        pass
-    return None
-
-def get_price(url):
-    """تشخیص فروشگاه و دریافت قیمت"""
-    if not url or not url.startswith("http"):
-        return None
-    if "digikala.com" in url:
-        return fetch_price_digikala(url)
-    elif "technolife.ir" in url:
-        return fetch_price_technolife(url)
-    else:
-        return fetch_price_generic(url)
-
-def fetch_prices():
-    log("دریافت لیست محصولات از سایت...")
-    try:
-        secret = os.environ.get("PICKIN_SECRET", "PICKIN_SCRAPER_SECRET_2026")
-        url    = f"{SITE_API}?action=getProductsForScraper&secret={secret}"
-        log(f"درخواست به: {url[:60]}...")
-        resp   = requests.get(url, headers=HEADERS, timeout=15)
-        log(f"HTTP status: {resp.status_code}")
-        log(f"Response: {resp.text[:100]}")
-        products = resp.json()
-    except Exception as e:
-        log(f"❌ خطا در دریافت محصولات: {e}")
-        return []
-
-    log(f"{len(products)} محصول دریافت شد")
-    results = []
-
-    for i, p in enumerate(products):
-        product_id = p.get("product_id")
-        seller_id  = p.get("seller_id")
-        url        = p.get("purchase_url", "")
-
-        log(f"[{i+1}/{len(products)}] {p.get('title','')[:40]} — {url[:50]}")
-
-        price = get_price(url)
-        if price:
-            log(f"  ✅ {price}")
-            results.append({
-                "product_id": product_id,
-                "seller_id":  seller_id,
-                "price":      price,
-                "url":        url,
-                "updated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            })
-        else:
-            log(f"  ⚠️ قیمت یافت نشد")
-
-        time.sleep(1)  # جلوگیری از ban
-
-    log(f"✅ {len(results)} قیمت آپدیت شد")
-    return results
-
-# ===== Main =====
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["deals", "prices", "technooff", "all"], default="all")
