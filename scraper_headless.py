@@ -229,6 +229,103 @@ def fetch_technooff(max_products=50):
     return results[:max_products]
 
 
+# ===== قیمت از سایت‌های مختلف =====
+def fetch_price_digikala(url):
+    try:
+        m = re.search(r'dkp-(\d+)', url)
+        if not m: return None
+        product_id = m.group(1)
+        api_url    = f"https://api.digikala.com/v2/product/{product_id}/"
+        resp       = requests.get(api_url, headers=HEADERS, timeout=8)
+        if resp.status_code != 200: return None
+        data     = resp.json()
+        product  = data.get("data", {}).get("product", {})
+        variants = product.get("variants", [])
+        if not variants:
+            default_variant = product.get("default_variant", {})
+            price_info = default_variant.get("price", {}) if default_variant else {}
+            price = (price_info.get("selling_price", 0) or 0) // 10
+            if price > 0:
+                fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                return f"{price:,}".replace(",","،").translate(fa_d)
+            return None
+        prices = []
+        for v in variants:
+            p = v.get("price", {})
+            selling = (p.get("selling_price", 0) or 0) // 10
+            if selling > 0: prices.append(selling)
+        if prices:
+            n    = min(prices)
+            fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+            return f"{n:,}".replace(",","،").translate(fa_d)
+    except: pass
+    return None
+
+def fetch_price_generic(url):
+    try:
+        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=8)
+        if resp.status_code != 200: return None
+        fa   = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩","01234567890123456789")
+        text = resp.text.translate(fa)
+        for m in re.finditer(r'"price"\s*:\s*"?(\d+)"?', text):
+            n = int(m.group(1))
+            if 10000 <= n <= 9_999_999_999:
+                n    = n // 10 if n > 100_000_000 else n
+                fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                return f"{n:,}".replace(",","،").translate(fa_d)
+        for pat in [r'(\d{1,3}(?:[,،]\d{3})+)\s*تومان', r'(\d{6,10})\s*تومان']:
+            m = re.search(pat, resp.text)
+            if m:
+                raw = m.group(1).replace("،","").replace(",","")
+                n   = int(raw)
+                if 10000 <= n <= 999_999_999:
+                    fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                    return f"{n:,}".replace(",","،").translate(fa_d)
+    except: pass
+    return None
+
+def get_price(url):
+    if not url or not url.startswith("http"): return None
+    if "digikala.com" in url: return fetch_price_digikala(url)
+    else: return fetch_price_generic(url)
+
+def fetch_prices():
+    log("دریافت لیست محصولات از سایت...")
+    try:
+        secret = os.environ.get("PICKIN_SECRET", "PICKIN_SCRAPER_SECRET_2026")
+        url    = f"{SITE_API}?action=getProductsForScraper&secret={secret}"
+        resp   = requests.get(url, headers=HEADERS, timeout=15)
+        products = resp.json()
+    except Exception as e:
+        log(f"❌ خطا در دریافت محصولات: {e}")
+        return []
+
+    log(f"{len(products)} محصول دریافت شد")
+    results = []
+
+    for i, p in enumerate(products):
+        product_id = p.get("product_id")
+        seller_id  = p.get("seller_id")
+        url        = p.get("purchase_url", "")
+        log(f"[{i+1}/{len(products)}] {p.get('title','')[:40]}")
+        price = get_price(url)
+        if price:
+            log(f"  ✅ {price}")
+            results.append({
+                "product_id": product_id,
+                "seller_id":  seller_id,
+                "price":      price,
+                "url":        url,
+                "updated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            })
+        else:
+            log(f"  ⚠️ قیمت یافت نشد")
+        time.sleep(1)
+
+    log(f"✅ {len(results)} قیمت آپدیت شد")
+    return results
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["deals", "prices", "technooff", "all"], default="all")
