@@ -243,7 +243,7 @@ def main():
 
     if args.mode in ("technooff", "all"):
         log("=== استخراج تکنوآف تکنولایف ===")
-        technooff = fetch_technooff(max_products=50, log_fn=log)
+        technooff = fetch_technooff(max_products=50)
         path = OUTPUT_DIR / "technooff_latest.json"
         path.write_text(json.dumps(technooff, ensure_ascii=False, indent=2), encoding="utf-8")
         log(f"ذخیره شد: {path}")
