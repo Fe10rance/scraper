@@ -11,6 +11,15 @@ on:
         required: true
         default: 'all'
 
+# جلوگیری از اجرای هم‌زمان چند تا اجرای این ورک‌فلو با هم (چه cron چه دستی)
+# تا هیچ‌وقت دو تا Job همزمان نخوان به یه برنچ push کنن.
+concurrency:
+  group: pickin-update-push
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
   update-deals:
     name: update-deals
@@ -33,14 +42,39 @@ jobs:
         env:
           PICKIN_API: ${{ secrets.PICKIN_API }}
 
-      - name: Push
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add data/deals_latest.json
-          git pull --rebase origin main || true
-          git diff --staged --quiet || git commit -m "deals update $(date '+%Y-%m-%d')"
-          git push || true
+          if git diff --staged --quiet; then
+            echo "تغییری برای commit نبود."
+            exit 0
+          fi
+          git commit -m "deals update $(date '+%Y-%m-%d_%H-%M')"
+
+          max_attempts=5
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "تلاش $attempt برای push..."
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin main; then
+                echo "✅ push موفق بود."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              git reset --soft origin/main
+              git add data/deals_latest.json
+              git commit -m "deals update $(date '+%Y-%m-%d_%H-%M') (retry $attempt)"
+            fi
+            attempt=$((attempt + 1))
+            sleep $((RANDOM % 10 + 5))
+          done
+          echo "❌ بعد از $max_attempts تلاش، push موفق نشد."
+          exit 1
 
   update-technooff:
     name: update-technooff
@@ -60,19 +94,44 @@ jobs:
         run: pip install playwright beautifulsoup4 requests
 
       - name: Install browser
-        run: playwright install chromium
+        run: playwright install --with-deps chromium
 
       - name: Run scraper
         run: python scraper_headless.py --mode technooff
 
-      - name: Push
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add data/technooff_latest.json
-          git pull --rebase origin main || true
-          git diff --staged --quiet || git commit -m "technooff update $(date '+%Y-%m-%d')"
-          git push || true
+          if git diff --staged --quiet; then
+            echo "تغییری برای commit نبود."
+            exit 0
+          fi
+          git commit -m "technooff update $(date '+%Y-%m-%d_%H-%M')"
+
+          max_attempts=5
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "تلاش $attempt برای push..."
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin main; then
+                echo "✅ push موفق بود."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              git reset --soft origin/main
+              git add data/technooff_latest.json
+              git commit -m "technooff update $(date '+%Y-%m-%d_%H-%M') (retry $attempt)"
+            fi
+            attempt=$((attempt + 1))
+            sleep $((RANDOM % 10 + 5))
+          done
+          echo "❌ بعد از $max_attempts تلاش، push موفق نشد."
+          exit 1
 
   update-prices:
     name: update-prices
@@ -98,11 +157,36 @@ jobs:
           PICKIN_API: ${{ secrets.PICKIN_API }}
           PICKIN_SECRET: ${{ secrets.PICKIN_SECRET }}
 
-      - name: Push
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add data/prices_latest.json
-          git pull --rebase origin main || true
-          git diff --staged --quiet || git commit -m "prices update $(date '+%Y-%m-%d')"
-          git push || true
+          if git diff --staged --quiet; then
+            echo "تغییری برای commit نبود."
+            exit 0
+          fi
+          git commit -m "prices update $(date '+%Y-%m-%d_%H-%M')"
+
+          max_attempts=5
+          attempt=1
+          while [ $attempt -le $max_attempts ]; do
+            echo "تلاش $attempt برای push..."
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin main; then
+                echo "✅ push موفق بود."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              git reset --soft origin/main
+              git add data/prices_latest.json
+              git commit -m "prices update $(date '+%Y-%m-%d_%H-%M') (retry $attempt)"
+            fi
+            attempt=$((attempt + 1))
+            sleep $((RANDOM % 10 + 5))
+          done
+          echo "❌ بعد از $max_attempts تلاش، push موفق نشد."
+          exit 1
