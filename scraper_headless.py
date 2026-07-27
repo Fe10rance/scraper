@@ -331,27 +331,39 @@ def main():
     parser.add_argument("--mode", choices=["deals", "prices", "technooff", "all"], default="all")
     args = parser.parse_args()
 
+    # نکته مهم: هر بخش توی try/except جدا اجرا میشه. قبلاً اگه یکی از این‌ها
+    # (مثلاً تکنولایف که به Playwright نیاز داره) کرش می‌کرد، کل اسکریپت
+    # متوقف می‌شد و بخش‌های بعدی (مثل قیمت‌ها) اصلاً اجرا نمی‌شدن.
+
     if args.mode in ("deals", "all"):
-        log("=== استخراج تخفیفات ===")
-        deals = fetch_deals(max_products=100)
-        path  = OUTPUT_DIR / "deals_latest.json"
-        path.write_text(json.dumps(deals, ensure_ascii=False, indent=2), encoding="utf-8")
-        log(f"ذخیره شد: {path}")
+        try:
+            log("=== استخراج تخفیفات ===")
+            deals = fetch_deals(max_products=100)
+            path  = OUTPUT_DIR / "deals_latest.json"
+            path.write_text(json.dumps(deals, ensure_ascii=False, indent=2), encoding="utf-8")
+            log(f"ذخیره شد: {path}")
+        except Exception as e:
+            log(f"❌❌ بخش تخفیفات کامل شکست خورد: {e}")
 
     if args.mode in ("technooff", "all"):
-        log("=== استخراج تکنوآف تکنولایف ===")
-        technooff = fetch_technooff(max_products=50)
-        path = OUTPUT_DIR / "technooff_latest.json"
-        path.write_text(json.dumps(technooff, ensure_ascii=False, indent=2), encoding="utf-8")
-        log(f"ذخیره شد: {path}")
-        
+        try:
+            log("=== استخراج تکنوآف تکنولایف ===")
+            technooff = fetch_technooff(max_products=50)
+            path = OUTPUT_DIR / "technooff_latest.json"
+            path.write_text(json.dumps(technooff, ensure_ascii=False, indent=2), encoding="utf-8")
+            log(f"ذخیره شد: {path}")
+        except Exception as e:
+            log(f"❌❌ بخش تکنوآف کامل شکست خورد: {e}")
 
     if args.mode in ("prices", "all"):
-        log("=== آپدیت قیمت‌ها ===")
-        prices = fetch_prices()
-        path   = OUTPUT_DIR / "prices_latest.json"
-        path.write_text(json.dumps(prices, ensure_ascii=False, indent=2), encoding="utf-8")
-        log(f"ذخیره شد: {path}")
+        try:
+            log("=== آپدیت قیمت‌ها ===")
+            prices = fetch_prices()
+            path   = OUTPUT_DIR / "prices_latest.json"
+            path.write_text(json.dumps(prices, ensure_ascii=False, indent=2), encoding="utf-8")
+            log(f"ذخیره شد: {path}")
+        except Exception as e:
+            log(f"❌❌ بخش قیمت‌ها کامل شکست خورد: {e}")
 
     log("✨ تمام!")
 
