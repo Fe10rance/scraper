@@ -1,198 +1,856 @@
 [
   {
-    "product_id": 242,
+    "product_id": 260,
     "seller_id": 1,
-    "price": "۴۸،۳۷۵،۰۰۰",
+    "price": "۲،۰۸۸،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:51:46"
+  },
+  {
+    "product_id": 259,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:51:48"
+  },
+  {
+    "product_id": 257,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:51:50"
+  },
+  {
+    "product_id": 256,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:51:52"
+  },
+  {
+    "product_id": 260,
+    "seller_id": 1,
+    "price": "۲،۰۸۸،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:51:55"
+  },
+  {
+    "product_id": 259,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:51:57"
+  },
+  {
+    "product_id": 261,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:51:58"
+  },
+  {
+    "product_id": 257,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:00"
+  },
+  {
+    "product_id": 262,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:02"
+  },
+  {
+    "product_id": 256,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:52:03"
+  },
+  {
+    "product_id": 264,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:52:05"
+  },
+  {
+    "product_id": 265,
+    "seller_id": 1,
+    "price": "۲،۰۸۸،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:52:07"
+  },
+  {
+    "product_id": 260,
+    "seller_id": 1,
+    "price": "۲،۰۸۸،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:52:09"
+  },
+  {
+    "product_id": 266,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:52:11"
+  },
+  {
+    "product_id": 259,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:52:13"
+  },
+  {
+    "product_id": 261,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:52:15"
+  },
+  {
+    "product_id": 257,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:17"
+  },
+  {
+    "product_id": 262,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:19"
+  },
+  {
+    "product_id": 270,
+    "seller_id": 1,
+    "price": "۲،۰۸۸،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:52:21"
+  },
+  {
+    "product_id": 256,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:52:23"
+  },
+  {
+    "product_id": 264,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:52:25"
+  },
+  {
+    "product_id": 267,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:26"
+  },
+  {
+    "product_id": 265,
+    "seller_id": 1,
+    "price": "۲،۰۸۸،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:52:29"
+  },
+  {
+    "product_id": 269,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:52:30"
+  },
+  {
+    "product_id": 315,
+    "seller_id": 1,
+    "price": "۴۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-11214316/%D9%87%D8%AF%D8%B3%D8%AA-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D9%85%D8%AF%D9%84-air-pods-pro-apple/",
+    "updated_at": "2026-07-28 18:52:32"
+  },
+  {
+    "product_id": 257,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:34"
+  },
+  {
+    "product_id": 349,
+    "seller_id": 1,
+    "price": "۸۹۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-5013379/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D8%AF%D9%84-k55-%D8%A8%D8%AF%D9%88%D9%86-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D8%B3%D9%87-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:52:35"
+  },
+  {
+    "product_id": 278,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:52:37"
+  },
+  {
+    "product_id": 285,
+    "seller_id": 1,
+    "price": "۲،۷۴۹،۹۹۰",
+    "url": "https://www.digikala.com/product/dkp-21686737/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D9%88%D9%88%D9%86%DA%A9-%D9%85%D8%AF%D9%84-eqw-4/",
+    "updated_at": "2026-07-28 18:52:39"
+  },
+  {
+    "product_id": 322,
+    "seller_id": 1,
+    "price": "۲،۲۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22098025/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-gen20-tws-v53/",
+    "updated_at": "2026-07-28 18:52:41"
+  },
+  {
+    "product_id": 329,
+    "seller_id": 1,
+    "price": "۳،۸۷۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-18073761/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-p30i-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-4-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%A8%D8%A7-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D9%85%D8%AC%D9%87%D8%B2-%D8%A8%D9%87-%D8%AF%DA%A9%D9%85%D9%87-%D9%84%D9%85%D8%B3%DB%8C-%D9%88-%D9%86%D8%B4%D8%A7%D9%86%DA%AF%D8%B1-led-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%DA%AF%D8%B1%D8%AF%D9%88%D8%BA%D8%A8%D8%A7%D8%B1/",
+    "updated_at": "2026-07-28 18:52:43"
+  },
+  {
+    "product_id": 262,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:52:45"
+  },
+  {
+    "product_id": 293,
+    "seller_id": 1,
+    "price": "۱،۹۹۹،۹۹۰",
+    "url": "https://www.digikala.com/product/dkp-22278512/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%B1%DB%8C%D9%88%D9%84%DB%8C%D9%86%DA%A9-%D9%85%D8%AF%D9%84-xde-pro3/",
+    "updated_at": "2026-07-28 18:52:46"
+  },
+  {
+    "product_id": 304,
+    "seller_id": 1,
+    "price": "۱۸۵،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-4379670/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%B3%DB%8C%D9%85%DB%8C-%D9%85%D8%AF%D9%84-ys/",
+    "updated_at": "2026-07-28 18:52:48"
+  },
+  {
+    "product_id": 336,
+    "seller_id": 1,
+    "price": "۱۲،۲۷۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-20443411/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-buds-3-fe/",
+    "updated_at": "2026-07-28 18:52:50"
+  },
+  {
+    "product_id": 343,
+    "seller_id": 1,
+    "price": "۳،۱۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22131961/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-tws-earbuds-c01/",
+    "updated_at": "2026-07-28 18:52:52"
+  },
+  {
+    "product_id": 270,
+    "seller_id": 1,
+    "price": "۱،۹۳۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:52:54"
+  },
+  {
+    "product_id": 311,
+    "seller_id": 1,
+    "price": "۲،۱۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22125178/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%B1%DB%8C%D9%88%D9%84%DB%8C%D9%86%DA%A9-%D9%85%D8%AF%D9%84-hg-pro3/",
+    "updated_at": "2026-07-28 18:52:56"
+  },
+  {
+    "product_id": 256,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:52:58"
+  },
+  {
+    "product_id": 318,
+    "seller_id": 1,
+    "price": "۹۵۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-17986726/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A7%DB%8C%D9%81%D9%88%D8%B1%D8%AC-%D9%85%D8%AF%D9%84-ma-107/",
+    "updated_at": "2026-07-28 18:53:00"
+  },
+  {
+    "product_id": 281,
+    "seller_id": 1,
+    "price": "۳،۳۱۶،۴۰۰",
+    "url": "https://www.digikala.com/product/dkp-16200986/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-r50i-nc-%D8%A8%D8%A7-%D8%AD%D8%B0%D9%81-%D9%86%D9%88%DB%8C%D8%B2-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%A8%D8%A7%D8%AA%D8%B1%DB%8C-%D9%82%D8%A7%D8%A8%D9%84-%D8%B4%D8%A7%D8%B1%DA%98-%D8%AA%D8%A7-45-%D8%B3%D8%A7%D8%B9%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D9%BE%D8%A7%D8%B4%D8%B4-%D8%A2%D8%A8-%D9%88-%DA%AF%D8%B1%D8%AF-%D9%88-%D8%BA%D8%A8%D8%A7%D8%B1/",
+    "updated_at": "2026-07-28 18:53:02"
+  },
+  {
+    "product_id": 288,
+    "seller_id": 1,
+    "price": "۸،۹۷۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-19489210/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-liberty-5-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AA%D8%A7-30-%D8%B3%D8%A7%D8%B9%D8%AA-%D8%B2%D9%85%D8%A7%D9%86-%D9%BE%D8%AE%D8%B4-%D9%85%D9%88%D8%B3%DB%8C%D9%82%DB%8C-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D8%B3%D9%86%D8%B3%D9%88%D8%B1-%D9%86%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%DA%AF%D9%88%D8%B4-%D9%88-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:53:04"
+  },
+  {
+    "product_id": 325,
+    "seller_id": 1,
+    "price": "۲،۲۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22212580/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-air08/",
+    "updated_at": "2026-07-28 18:53:06"
+  },
+  {
+    "product_id": 332,
+    "seller_id": 1,
+    "price": "۲،۴۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-21687328/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-twsap-c08/",
+    "updated_at": "2026-07-28 18:53:08"
+  },
+  {
+    "product_id": 264,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:53:10"
+  },
+  {
+    "product_id": 300,
+    "seller_id": 1,
+    "price": "۱،۶۹۹،۹۹۰",
+    "url": "https://www.digikala.com/product/dkp-22119507/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%B1%DB%8C%D9%88%D9%84%DB%8C%D9%86%DA%A9-%D9%85%D8%AF%D9%84-yur-3/",
+    "updated_at": "2026-07-28 18:53:11"
+  },
+  {
+    "product_id": 267,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:53:13"
+  },
+  {
+    "product_id": 307,
+    "seller_id": 1,
+    "price": "۷،۳۹۴،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-16029106/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%86%D8%A7%D8%AA%DB%8C%D9%86%DA%AF-%D9%85%D8%AF%D9%84-cmf-buds-pro-2-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%B3%D9%87%DA%AF%D8%A7%D9%86%D9%87-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%AD%D8%B0%D9%81-%D8%B5%D8%AF%D8%A7%DB%8C-%D8%A8%D8%A7%D8%AF-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82-ip55/",
+    "updated_at": "2026-07-28 18:53:15"
+  },
+  {
+    "product_id": 339,
+    "seller_id": 1,
+    "price": "۳۹۴،۶۰۰",
+    "url": "https://www.digikala.com/product/dkp-3295428/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D8%AF%D9%84-p47-edr-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D8%B4%DB%8C%D8%A7%D8%B1-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%AD%D8%A7%D9%81%D8%B8%D9%87-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:53:18"
+  },
+  {
+    "product_id": 314,
+    "seller_id": 1,
+    "price": "۲،۲۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22158597/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-buds2-tws20/",
+    "updated_at": "2026-07-28 18:53:20"
+  },
+  {
+    "product_id": 348,
+    "seller_id": 1,
+    "price": "۱۰،۴۶۷،۴۰۰",
+    "url": "https://www.digikala.com/product/dkp-12914704/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-buds-fe-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D9%88%DA%AF%D8%A7%D9%86%D9%87-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:53:22"
+  },
+  {
+    "product_id": 277,
+    "seller_id": 1,
+    "price": "۳،۸۰۵،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22043108/%D9%87%D8%AF%D8%B3%D8%AA-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep52b/",
+    "updated_at": "2026-07-28 18:53:23"
+  },
+  {
+    "product_id": 284,
+    "seller_id": 1,
+    "price": "۴،۱۴۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-21061064/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-r60i-nc/",
+    "updated_at": "2026-07-28 18:53:25"
+  },
+  {
+    "product_id": 321,
+    "seller_id": 1,
+    "price": "۲،۱۸۱،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-9432664/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%DA%AF%D8%B1%D8%AF%D9%86%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-a3213-u2i-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%A8%D8%A7-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AD%D8%B0%D9%81-%D9%86%D9%88%DB%8C%D8%B2-cvc-80-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%A7%D8%B1%DA%AF%D9%88%D9%86%D9%88%D9%85%DB%8C%DA%A9-%D9%88-%D8%B1%D8%A7%D8%AD%D8%AA-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%B5%D9%88%D8%AA%DB%8C-%D9%88-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A2%D8%A8/",
+    "updated_at": "2026-07-28 18:53:28"
+  },
+  {
+    "product_id": 328,
+    "seller_id": 1,
+    "price": "۲۳،۵۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-16072099/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-buds3-pro-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%B4%D8%A7%D8%B1%DA%98-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DA%86%D9%86%D8%AF-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%B5%D9%88%D8%AA%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A2%D8%A8/",
+    "updated_at": "2026-07-28 18:53:29"
+  },
+  {
+    "product_id": 291,
+    "seller_id": 1,
+    "price": "۵۰،۹۹۹،۰۰۰",
     "url": "https://www.digikala.com/product/dkp-17580036/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-note-14-4g-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA",
-    "updated_at": "2026-07-28 08:51:39"
+    "updated_at": "2026-07-28 18:53:31"
   },
   {
-    "product_id": 114,
-    "seller_id": 2,
-    "price": "۱۸،۸۹۹،۹۰۰",
-    "url": "https://www.technolife.com/product-70016/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-iphone-15-ch-a-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA---not-active-%D8%B1%D8%AC%DB%8C%D8%B3%D8%AA%D8%B1-%D8%B4%D8%AF%D9%87",
-    "updated_at": "2026-07-28 08:52:53"
-  },
-  {
-    "product_id": 118,
-    "seller_id": 2,
-    "price": "۲۳،۱۵۹،۹۰۰",
-    "url": "https://www.technolife.com/product-69610/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-16-ch-a-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D8%AC%DB%8C%D8%B3%D8%AA%D8%B1-%D8%B4%D8%AF%D9%87",
-    "updated_at": "2026-07-28 08:52:54"
-  },
-  {
-    "product_id": 114,
+    "product_id": 303,
     "seller_id": 1,
-    "price": "۱۸۹،۹۹۹،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-21083244/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-15-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:03"
+    "price": "۳،۹۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22078583/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-gk8-tws-v54/",
+    "updated_at": "2026-07-28 18:53:33"
   },
   {
-    "product_id": 118,
+    "product_id": 335,
     "seller_id": 1,
-    "price": "۲۳۱،۹۹۹،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-17986495/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-16-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/?variant_id=73396528",
-    "updated_at": "2026-07-28 08:53:05"
+    "price": "۴۶۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-2891227/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%DA%A9%DB%8C%D9%88-%DA%A9%DB%8C-%D8%B2%D8%AF-%D9%85%D8%AF%D9%84-ak6-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A7%D8%B2-%D8%B7%D8%B1%DB%8C%D9%82-%D8%AC%DA%A9-35-%D9%85%DB%8C%D9%84%DB%8C%D9%85%D8%AA%D8%B1%DB%8C-%D8%B5%D8%AF%D8%A7-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D8%A8%D8%A7-%DA%A9%DB%8C%D9%81%DB%8C%D8%AA-%D8%B5%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%A8-%D9%88-%D8%A7%D9%85%DA%A9%D8%A7%D9%86-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%A7%D8%B1%DA%AF%D9%88%D9%86%D9%88%D9%85%DB%8C%DA%A9-%D8%A8%D8%A7-%DA%AF%D9%88%D8%B4%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D8%B1%D9%85-%D9%88-%D8%B5%D8%A7%D9%81-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%AD%D8%B",
+    "updated_at": "2026-07-28 18:53:35"
   },
   {
-    "product_id": 115,
-    "seller_id": 2,
-    "price": "۳۱۰،۰۰۰",
-    "url": "https://www.technolife.com/product-70257/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-iphone-15-plus-ch-a-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA---not-active",
-    "updated_at": "2026-07-28 08:53:12"
-  },
-  {
-    "product_id": 246,
+    "product_id": 265,
     "seller_id": 1,
-    "price": "۲،۱۱۳،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-20499744/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%D9%86%D9%88%D9%81%D8%B1-%D9%85%D8%AF%D9%84-150-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-32-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-24-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:35"
+    "price": "۱،۹۳۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:53:37"
   },
   {
-    "product_id": 244,
+    "product_id": 342,
     "seller_id": 1,
-    "price": "۵،۵۹۹،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-22259125/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-150-music-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
-    "updated_at": "2026-07-28 08:53:37"
+    "price": "۲،۷۷۶،۲۰۰",
+    "url": "https://www.digikala.com/product/dkp-16471977/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-buds-6-active-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D8%AF%D9%88-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%AD%D8%B0%D9%81-%D9%86%D9%88%DB%8C%D8%B2-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82-ipx4/",
+    "updated_at": "2026-07-28 18:53:40"
+  },
+  {
+    "product_id": 310,
+    "seller_id": 1,
+    "price": "۳۰،۷۱۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-21552444/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-buds-4-pro/",
+    "updated_at": "2026-07-28 18:53:41"
+  },
+  {
+    "product_id": 317,
+    "seller_id": 1,
+    "price": "۹،۵۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-3537683/%D9%87%D8%AF%D8%B3%D8%AA-%DA%AF%DB%8C%D9%85%DB%8C%D9%86%DA%AF-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B1%DB%8C%D8%B2%D8%B1-%D9%85%D8%AF%D9%84-blackshark-v2-x-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%A8%D8%AF%D9%86%D9%87-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A7%D8%B2-%D8%B7%D8%B1%DB%8C%D9%82-%D8%AC%DA%A9-35-%D9%85%DB%8C%D9%84%DB%8C%D9%85%D8%AA%D8%B1%DB%8C-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D8%B5%D8%AF%D8%A7%DB%8C-%D9%81%D8%B1%D8%A7%DA%AF%DB%8C%D8%B1-71-%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D8%AA%DA%A9%D9%86%D9%88%D9%84%D9%88%DA%98%DB%8C-%D8%B5%D8%AF%D8%A7%DB%8C-360-%D8%AF%D8%B1%D8%AC%D9%87/",
+    "updated_at": "2026-07-28 18:53:43"
+  },
+  {
+    "product_id": 280,
+    "seller_id": 1,
+    "price": "۱،۸۴۹،۹۹۰",
+    "url": "https://www.digikala.com/product/dkp-22122522/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D9%88%D9%88%D9%86%DA%A9-%D9%85%D8%AF%D9%84-eyu-4/",
+    "updated_at": "2026-07-28 18:53:45"
+  },
+  {
+    "product_id": 287,
+    "seller_id": 1,
+    "price": "۱،۲۵۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22110854/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-tws-7-gen-v53/",
+    "updated_at": "2026-07-28 18:53:48"
+  },
+  {
+    "product_id": 324,
+    "seller_id": 1,
+    "price": "۱،۸۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22119502/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%B1%DB%8C%D9%88%D9%84%DB%8C%D9%86%DA%A9-%D9%85%D8%AF%D9%84-true-tws-3s/",
+    "updated_at": "2026-07-28 18:53:50"
+  },
+  {
+    "product_id": 331,
+    "seller_id": 1,
+    "price": "۵،۷۲۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-20024829/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-p41i/",
+    "updated_at": "2026-07-28 18:53:52"
+  },
+  {
+    "product_id": 299,
+    "seller_id": 1,
+    "price": "۱،۲۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22110216/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-tws-las-7/",
+    "updated_at": "2026-07-28 18:53:54"
+  },
+  {
+    "product_id": 306,
+    "seller_id": 1,
+    "price": "۱،۶۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22129173/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-39/",
+    "updated_at": "2026-07-28 18:53:55"
+  },
+  {
+    "product_id": 338,
+    "seller_id": 1,
+    "price": "۵۴۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-20455854/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D8%AF%D9%84-new-ur2oo/",
+    "updated_at": "2026-07-28 18:53:57"
+  },
+  {
+    "product_id": 347,
+    "seller_id": 1,
+    "price": "۱۵،۲۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-16072390/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-buds3-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DA%86%D9%86%D8%AF-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%B5%D8%AF%D8%A7%DB%8C-360-%D8%AF%D8%B1%D8%AC%D9%87-galaxy-ai-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%B3%D9%87-%DA%AF%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D8%B6%D8%AF-%D8%A2%",
+    "updated_at": "2026-07-28 18:53:59"
+  },
+  {
+    "product_id": 276,
+    "seller_id": 1,
+    "price": "۲،۰۷۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-21859564/%D9%87%D9%86%D8%AF%D8%B2%D9%81%D8%B1%DB%8C-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep77w/",
+    "updated_at": "2026-07-28 18:54:01"
+  },
+  {
+    "product_id": 313,
+    "seller_id": 1,
+    "price": "۴،۶۲۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-15235017/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%DA%AF%D8%B1%D8%AF%D9%86%DB%8C-%D9%86%D8%A7%D8%AA%DB%8C%D9%86%DA%AF-%D9%85%D8%AF%D9%84-cmf-neckband-pro-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%86%D8%B4%D8%A7%D9%86%DA%AF%D8%B1-led/",
+    "updated_at": "2026-07-28 18:54:03"
+  },
+  {
+    "product_id": 283,
+    "seller_id": 1,
+    "price": "۲،۲۸۷،۹۰۰",
+    "url": "https://www.digikala.com/product/dkp-13287099/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D8%B1%D9%86%D8%AF-%DA%A9%DB%8C%D9%88-%D8%B3%DB%8C-%D9%88%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-t13-anc2-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D9%88-%D9%BE%D8%AE%D8%B4-%D8%B5%D8%AF%D8%A7%DB%8C-%D9%85%D8%AD%DB%8C%D8%B7%DB%8C-transparency-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DA%86%D9%86%D8%AF-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%DA%A9%D9%86%D8%AA%D8%B1%D9%84-%D9%84%D9%85%D8%B3%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A2%D8%A8-%D9%88-%DA%AF%D8%B1%D8%AF%D9%88%D8%BA%D8%A8%D8%A7%D8%B1/",
+    "updated_at": "2026-07-28 18:54:06"
+  },
+  {
+    "product_id": 320,
+    "seller_id": 1,
+    "price": "۶،۱۶۲،۶۰۰",
+    "url": "https://www.digikala.com/product/dkp-16024148/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-q20i-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-2-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%88-2-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%B5%D8%AF%D8%A7%DB%8C-hi-res-%D8%A7%D8%B2-%D8%B7%D8%B1%DB%8C%D9%82-%DA%A9%D8%A7%D8%A8%D9%84-aux/",
+    "updated_at": "2026-07-28 18:54:08"
+  },
+  {
+    "product_id": 327,
+    "seller_id": 1,
+    "price": "۴۰۹،۷۴۰",
+    "url": "https://www.digikala.com/product/dkp-5866372/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB-%D9%85%D8%AF%D9%84-p47-50edr-%DA%A9%D8%AF-6989532512530/",
+    "updated_at": "2026-07-28 18:54:10"
+  },
+  {
+    "product_id": 290,
+    "seller_id": 1,
+    "price": "۱،۹۸۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-16994906/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-k20i-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%DA%A9%D9%86%D8%AA%D8%B1%D9%84-%D9%84%D9%85%D8%B3%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D9%BE%D8%A7%D8%B4%D8%B4-%D8%A2%D8%A8-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF/",
+    "updated_at": "2026-07-28 18:54:12"
+  },
+  {
+    "product_id": 302,
+    "seller_id": 1,
+    "price": "۳،۷۷۷،۷۷۰",
+    "url": "https://www.digikala.com/product/dkp-22308130/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-atnws200-touch/",
+    "updated_at": "2026-07-28 18:54:14"
+  },
+  {
+    "product_id": 334,
+    "seller_id": 1,
+    "price": "۲،۸۷۹،۹۶۰",
+    "url": "https://www.digikala.com/product/dkp-12784577/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-p25i-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:16"
+  },
+  {
+    "product_id": 341,
+    "seller_id": 1,
+    "price": "۵،۹۵۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-17453879/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-p40i-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-6-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D8%A8%D8%A7-%D8%A8%D9%87%D8%B1%D9%87%DA%AF%DB%8C%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A2%D8%A8/",
+    "updated_at": "2026-07-28 18:54:18"
+  },
+  {
+    "product_id": 269,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:54:19"
+  },
+  {
+    "product_id": 309,
+    "seller_id": 1,
+    "price": "۲۹،۴۹۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-12946785/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-airpods-pro-2nd-generation-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%B4%D8%A7%D8%B1%DA%98-%D8%A8%DB%8C%D8%B3%DB%8C%D9%85-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D9%88%DA%AF%D8%A7%D9%86%D9%87-%D8%A7%D8%B2-%D9%86%D9%88%D8%B9-beamforming-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:21"
+  },
+  {
+    "product_id": 316,
+    "seller_id": 1,
+    "price": "۴۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-14357656/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D8%AF%D9%84-%D8%A7%DB%8C%D8%B1%D9%BE%D8%A7%D8%AF-%D9%BE%D8%B1%D9%88-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-lightning/",
+    "updated_at": "2026-07-28 18:54:23"
+  },
+  {
+    "product_id": 279,
+    "seller_id": 1,
+    "price": "۱،۹۳۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:26"
+  },
+  {
+    "product_id": 286,
+    "seller_id": 1,
+    "price": "۷،۱۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-13578645/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-liberty-4-nc-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D9%BE%D8%A7%D8%B4%D8%B4-%D8%A2%D8%A8/",
+    "updated_at": "2026-07-28 18:54:28"
+  },
+  {
+    "product_id": 323,
+    "seller_id": 1,
+    "price": "۳،۸۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-21731445/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-pd-btap200-anc/",
+    "updated_at": "2026-07-28 18:54:30"
+  },
+  {
+    "product_id": 260,
+    "seller_id": 1,
+    "price": "۱،۹۳۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-11801878/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-r50i-a3949-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-ai-enhanced-calls-%D8%A8%D8%B1%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D8%B4-%D9%86%D9%88%DB%8C%D8%B2-%D9%88-%D8%A8%D9%87%D8%A8%D9%88%D8%AF-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:32"
+  },
+  {
+    "product_id": 330,
+    "seller_id": 1,
+    "price": "۲،۲۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22110951/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-tws-earbuds-c03-40/",
+    "updated_at": "2026-07-28 18:54:34"
+  },
+  {
+    "product_id": 294,
+    "seller_id": 1,
+    "price": "۲،۰۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-12407150/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%DA%A9%DB%8C%D9%88-%D8%B3%DB%8C-%D9%88%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-t13x-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%DA%86%D9%87%D8%A7%D8%B1%DA%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%85%DA%A9%D8%A7%D9%86-%D8%AD%D8%B0%D9%81-%D8%B5%D8%AF%D8%A7%DB%8C-%D9%85%D8%B2%D8%A7%D8%AD%D9%85-%D9%85%D8%AD%DB%8C%D8%B7-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:36"
+  },
+  {
+    "product_id": 305,
+    "seller_id": 1,
+    "price": "۲،۱۲۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-5856710/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%DA%A9%DB%8C%D9%88-%D8%B3%DB%8C-%D9%88%D8%A7%DB%8C-%D9%85%D8%AF%D9%84-t13-tws-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-enc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D9%88%DA%AF%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%AC%D8%AF%D8%A7%D8%B3%D8%A7%D8%B2%DB%8C-%D8%B5%D8%AF%D8%A7-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:38"
+  },
+  {
+    "product_id": 337,
+    "seller_id": 1,
+    "price": "۴،۴۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-18496625/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-soundcore-q11i-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D8%B4%D8%A7%D8%B1%DA%98-%D8%B3%D8%B1%DB%8C%D8%B9/",
+    "updated_at": "2026-07-28 18:54:40"
+  },
+  {
+    "product_id": 266,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:54:41"
+  },
+  {
+    "product_id": 344,
+    "seller_id": 1,
+    "price": "۱۰،۵۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-15375902/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%DB%8C%D8%B3%DB%8C%D9%85-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-space-one-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:54:43"
+  },
+  {
+    "product_id": 275,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:54:45"
+  },
+  {
+    "product_id": 312,
+    "seller_id": 1,
+    "price": "۳،۰۹۶،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-17011092/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-v20i-%D8%A8%D8%AF%D9%88%D9%86-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-4-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D9%81%D9%88%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%DA%A9%D8%A7%D9%84%D9%85%D9%87-%D8%B4%D9%81%D8%A7%D9%81-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A2%D8%A8-%D9%88-%DA%AF%D8%B1%D8%AF-%D9%88-%D8%BA%D8%A8%D8%A7%D8%B1-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA%DB%8C-ip55/",
+    "updated_at": "2026-07-28 18:54:47"
+  },
+  {
+    "product_id": 319,
+    "seller_id": 1,
+    "price": "۷،۲۸۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-19921892/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-buds-core/",
+    "updated_at": "2026-07-28 18:54:49"
+  },
+  {
+    "product_id": 259,
+    "seller_id": 1,
+    "price": "۳،۹۹۳،۵۰۰",
+    "url": "https://www.digikala.com/product/dkp-22094874/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep51b/",
+    "updated_at": "2026-07-28 18:54:51"
+  },
+  {
+    "product_id": 282,
+    "seller_id": 1,
+    "price": "۲،۶۵۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22219639/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D9%88%D9%88%D9%86%DA%A9-%D9%85%D8%AF%D9%84-true-pro2-kc40/",
+    "updated_at": "2026-07-28 18:54:52"
+  },
+  {
+    "product_id": 261,
+    "seller_id": 1,
+    "price": "۲،۱۴۰،۸۰۰",
+    "url": "https://www.digikala.com/product/dkp-21809669/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%88%D8%AF%DB%8C-%D9%85%D8%AF%D9%84-ep71w-anc/",
+    "updated_at": "2026-07-28 18:54:54"
+  },
+  {
+    "product_id": 289,
+    "seller_id": 1,
+    "price": "۳۷،۳۹۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-20422049/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-airpods-pro-3/",
+    "updated_at": "2026-07-28 18:54:56"
+  },
+  {
+    "product_id": 326,
+    "seller_id": 1,
+    "price": "۳۲،۴۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-16769505/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-airpods-4-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D9%88-%D8%B4%D8%A7%D8%B1%DA%98-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DA%86%D9%86%D8%AF-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%88-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%B5%D9%88%D8%AA%DB%8C-%D9%86%D8%B4%D8%A7%D9%86%DA%AF%D8%B1-led-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D9%BE%D8%A7%D8%B4%D8%B4-%D8%A2%D8%A8-%D9%88-%DA%AF%D8%B1%D8%AF-%D9%88-%D8%BA%D8%A8%D8%A7%D8%B1/",
+    "updated_at": "2026-07-28 18:54:58"
+  },
+  {
+    "product_id": 301,
+    "seller_id": 1,
+    "price": "۲۲،۶۸۰،۳۰۰",
+    "url": "https://www.digikala.com/product/dkp-16768320/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-airpods-4-%D9%81%D8%A7%D9%82%D8%AF-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%B4%D8%A7%D8%B1%DA%98-%D8%A8%DB%8C-%D8%B3%DB%8C%D9%85-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DA%86%D9%86%D8%AF-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%86%D8%B4%D8%A7%D9%86%DA%AF%D8%B1-led-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%B5%D9%88%D8%AA%DB%8C-%D9%85%D9%82%D8%A7%D9%88%D9%85-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%A2%D8%A8/",
+    "updated_at": "2026-07-28 18:55:00"
+  },
+  {
+    "product_id": 333,
+    "seller_id": 1,
+    "price": "۱،۷۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-22129079/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D9%85%D9%88%D8%B2%DB%8C%DA%A9-%D8%A2%D9%BE%D9%88%D9%84%D9%88-%D9%85%D8%AF%D9%84-atnm39-touch-best/",
+    "updated_at": "2026-07-28 18:55:02"
+  },
+  {
+    "product_id": 340,
+    "seller_id": 1,
+    "price": "۴،۹۰۸،۶۰۰",
+    "url": "https://www.digikala.com/product/dkp-13834993/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-buds-5-%D8%A8%D8%A7-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%86%D8%B4%D8%A7%D9%86%DA%AF%D8%B1-%D8%B1%D9%88%DB%8C-%D9%85%D8%AD%D9%81%D8%B8%D9%87-%D8%B4%D8%A7%D8%B1%DA%98/",
+    "updated_at": "2026-07-28 18:55:04"
+  },
+  {
+    "product_id": 308,
+    "seller_id": 1,
+    "price": "۱۳،۷۵۲،۴۰۰",
+    "url": "https://www.digikala.com/product/dkp-17017222/%D9%87%D8%AF%D9%81%D9%88%D9%86-%D8%A8%D9%84%D9%88%D8%AA%D9%88%D8%AB%DB%8C-%D8%A7%D9%86%DA%A9%D8%B1-%D9%85%D8%AF%D9%84-liberty-4-pro-%D8%AF%D8%A7%D8%B1%D8%A7%DB%8C-%D9%86%D9%88%DB%8C%D8%B2-%DA%A9%D9%86%D8%B3%D9%84%DB%8C%D9%86%DA%AF-%D9%81%D8%B9%D8%A7%D9%84-anc-%D8%AF%D8%B1%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-usb-type-c-%D8%A8%D8%A7-%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%A8%D9%87-%DA%86%D9%86%D8%AF-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%81%D8%B1%D9%85%D8%A7%D9%86-%D9%84%D9%85%D8%B3%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%B1-%D8%B1%D9%88%DB%8C-%D8%B5%D9%81%D8%AD%D9%87-%D9%85%D8%AD%D9%81%D8%B8%D9%87-%D8%B4%D8%A7%D8%B1%DA%98-%D9%86%D8%B4%D8%A7%D9%86%DA%AF%D8%B1-led-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%AA-%D8%AF%D8%B1-%D8%A8%D8%B1%D8%A7%D8%A8%D8%B1-%D8%B1%D8%B7%D9%88%D8%A8%D8%AA-%D9%88-%D8%B9%D8%B1%D9%82/",
+    "updated_at": "2026-07-28 18:55:06"
   },
   {
     "product_id": 247,
     "seller_id": 1,
-    "price": "۴۰،۹۰۰،۰۰۰",
+    "price": "۴۲،۰۰۰،۰۰۰",
     "url": "https://www.digikala.com/product/dkp-20514773/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a17-4g-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%B4%D8%A7%D8%B1%DA%98%D8%B1-25-%D9%88%D8%A7%D8%AA-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF/",
-    "updated_at": "2026-07-28 08:53:39"
+    "updated_at": "2026-07-28 18:55:08"
+  },
+  {
+    "product_id": 114,
+    "seller_id": 2,
+    "price": "۱۸،۹۵۹،۹۰۰",
+    "url": "https://www.technolife.com/product-70016/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-iphone-15-ch-a-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA---not-active-%D8%B1%D8%AC%DB%8C%D8%B3%D8%AA%D8%B1-%D8%B4%D8%AF%D9%87",
+    "updated_at": "2026-07-28 18:55:10"
+  },
+  {
+    "product_id": 118,
+    "seller_id": 2,
+    "price": "۲۳،۹۵۹،۹۰۰",
+    "url": "https://www.technolife.com/product-69610/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-16-ch-a-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D8%AC%DB%8C%D8%B3%D8%AA%D8%B1-%D8%B4%D8%AF%D9%87",
+    "updated_at": "2026-07-28 18:55:13"
+  },
+  {
+    "product_id": 255,
+    "seller_id": 1,
+    "price": "۲۶،۵۰۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-19742420/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-a5-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
+    "updated_at": "2026-07-28 18:55:15"
+  },
+  {
+    "product_id": 172,
+    "seller_id": 1,
+    "price": "۱۹،۰۸۵،۱۰۰",
+    "url": "https://www.digikala.com/product/dkp-20710867/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-238-%D8%A7%DB%8C%D9%86%DA%86-%D8%A7%D9%84-%D8%AC%DB%8C-%D9%85%D8%AF%D9%84-24u411a-b/?variant_id=74011726",
+    "updated_at": "2026-07-28 18:55:17"
   },
   {
     "product_id": 245,
     "seller_id": 1,
     "price": "۴۶۸،۰۰۰،۰۰۰",
     "url": "https://www.digikala.com/product/dkp-20125788/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-17-pro-max-zaa-%D8%AA%DA%A9-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-esim-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-512-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-12-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D8%AA-%D8%A7%DA%A9%D8%AA%DB%8C%D9%88/",
-    "updated_at": "2026-07-28 08:53:41"
+    "updated_at": "2026-07-28 18:55:19"
   },
   {
-    "product_id": 243,
+    "product_id": 114,
     "seller_id": 1,
-    "price": "۴،۱۹۹،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-22258443/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-125-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
-    "updated_at": "2026-07-28 08:53:43"
+    "price": "۱۸۹،۹۹۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-21083244/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-15-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
+    "updated_at": "2026-07-28 18:55:21"
   },
   {
-    "product_id": 249,
+    "product_id": 118,
     "seller_id": 1,
-    "price": "۲،۱۱۳،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-20499744/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%D9%86%D9%88%D9%81%D8%B1-%D9%85%D8%AF%D9%84-150-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-32-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-24-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:45"
-  },
-  {
-    "product_id": 246,
-    "seller_id": 1,
-    "price": "۲،۱۱۳،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-20499744/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%D9%86%D9%88%D9%81%D8%B1-%D9%85%D8%AF%D9%84-150-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-32-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-24-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:46"
-  },
-  {
-    "product_id": 244,
-    "seller_id": 1,
-    "price": "۵،۵۹۹،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-22259125/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-150-music-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
-    "updated_at": "2026-07-28 08:53:48"
-  },
-  {
-    "product_id": 252,
-    "seller_id": 1,
-    "price": "۲،۱۱۳،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-20499744/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%D9%86%D9%88%D9%81%D8%B1-%D9%85%D8%AF%D9%84-150-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-32-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-24-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:49"
-  },
-  {
-    "product_id": 249,
-    "seller_id": 1,
-    "price": "۲،۱۱۳،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-20499744/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%D9%86%D9%88%D9%81%D8%B1-%D9%85%D8%AF%D9%84-150-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-32-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-24-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:51"
-  },
-  {
-    "product_id": 246,
-    "seller_id": 1,
-    "price": "۲،۱۱۳،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-20499744/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%87%D8%A7%D9%86%D9%88%D9%81%D8%B1-%D9%85%D8%AF%D9%84-150-2024-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-32-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-24-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:52"
-  },
-  {
-    "product_id": 255,
-    "seller_id": 1,
-    "price": "۲۵،۰۰۰،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-19742420/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-a5-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:54"
-  },
-  {
-    "product_id": 244,
-    "seller_id": 1,
-    "price": "۵،۵۹۹،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-22259125/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D9%86%D9%88%DA%A9%DB%8C%D8%A7-%D9%85%D8%AF%D9%84-150-music-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%D9%85%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%85%D9%88%D9%86%D8%AA%D8%A7%DA%98-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AA%D8%AD%D8%AA-%D9%84%DB%8C%D8%B3%D8%A7%D9%86%D8%B3-%D9%86%D9%88%DA%A9%DB%8C%D8%A7/",
-    "updated_at": "2026-07-28 08:53:55"
+    "price": "۲۲۷،۸۹۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-17986495/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-16-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/?variant_id=73396528",
+    "updated_at": "2026-07-28 18:55:23"
   },
   {
     "product_id": 254,
     "seller_id": 1,
-    "price": "۳۹،۷۹۳،۸۰۰",
+    "price": "۴۰،۶۸۸،۰۰۰",
     "url": "https://www.digikala.com/product/dkp-20490808/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a17-4g-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:57"
-  },
-  {
-    "product_id": 247,
-    "seller_id": 1,
-    "price": "۳۹،۷۹۳،۸۰۰",
-    "url": "https://www.digikala.com/product/dkp-20490808/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a17-4g-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:53:59"
-  },
-  {
-    "product_id": 110,
-    "seller_id": 1,
-    "price": "۱۸۲،۰۰۰،۰۰۰",
-    "url": "https://www.digikala.com/product/dkp-9422534/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-14-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
-    "updated_at": "2026-07-28 08:54:06"
-  },
-  {
-    "product_id": 172,
-    "seller_id": 1,
-    "price": "۱۹،۰۸۵،۱۰۰",
-    "url": "https://www.digikala.com/product/dkp-20710867/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-238-%D8%A7%DB%8C%D9%86%DA%86-%D8%A7%D9%84-%D8%AC%DB%8C-%D9%85%D8%AF%D9%84-24u411a-b/?variant_id=74011726",
-    "updated_at": "2026-07-28 08:54:07"
+    "updated_at": "2026-07-28 18:55:25"
   },
   {
     "product_id": 109,
     "seller_id": 1,
     "price": "۱۷۲،۰۰۰،۰۰۰",
     "url": "https://www.digikala.com/product/dkp-8366616/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-13-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-4-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D8%AA-%D8%A7%DA%A9%D8%AA%DB%8C%D9%88/",
-    "updated_at": "2026-07-28 08:54:09"
+    "updated_at": "2026-07-28 18:55:27"
+  },
+  {
+    "product_id": 115,
+    "seller_id": 2,
+    "price": "۳۱۰،۰۰۰",
+    "url": "https://www.technolife.com/product-70257/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-iphone-15-plus-ch-a-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA---not-active",
+    "updated_at": "2026-07-28 18:55:30"
   },
   {
     "product_id": 172,
     "seller_id": 1,
     "price": "۱۹،۰۸۵،۱۰۰",
     "url": "https://www.digikala.com/product/dkp-20710867/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-238-%D8%A7%DB%8C%D9%86%DA%86-%D8%A7%D9%84-%D8%AC%DB%8C-%D9%85%D8%AF%D9%84-24u411a-b/?variant_id=74011726",
-    "updated_at": "2026-07-28 08:54:10"
+    "updated_at": "2026-07-28 18:55:32"
+  },
+  {
+    "product_id": 242,
+    "seller_id": 1,
+    "price": "۵۰،۹۹۹،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-17580036/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B4%DB%8C%D8%A7%D8%A6%D9%88%D9%85%DB%8C-%D9%85%D8%AF%D9%84-redmi-note-14-4g-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-256-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-8-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA",
+    "updated_at": "2026-07-28 18:55:34"
   },
   {
     "product_id": 110,
     "seller_id": 2,
     "price": "۲،۰۰۰،۰۰۰",
     "url": "https://www.technolife.com/product-7452/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-iphone-14-ch-%D9%86%D8%A7%D8%AA-%D8%A7%DA%A9%D8%AA%DB%8C%D9%88-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D8%B1%D8%AC%DB%8C%D8%B3%D8%AA%D8%B1-%D8%B4%D8%AF%D9%87",
-    "updated_at": "2026-07-28 08:54:12"
+    "updated_at": "2026-07-28 18:55:37"
   },
   {
     "product_id": 177,
     "seller_id": 1,
     "price": "۱۹،۰۸۵،۱۰۰",
     "url": "https://www.digikala.com/product/dkp-20710867/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-238-%D8%A7%DB%8C%D9%86%DA%86-%D8%A7%D9%84-%D8%AC%DB%8C-%D9%85%D8%AF%D9%84-24u411a-b/?variant_id=74011726",
-    "updated_at": "2026-07-28 08:54:14"
+    "updated_at": "2026-07-28 18:55:38"
+  },
+  {
+    "product_id": 247,
+    "seller_id": 1,
+    "price": "۴۰،۶۸۸،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-20490808/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%DA%AF-%D9%85%D8%AF%D9%84-galaxy-a17-4g-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
+    "updated_at": "2026-07-28 18:55:40"
   },
   {
     "product_id": 172,
     "seller_id": 1,
     "price": "۱۹،۰۸۵،۱۰۰",
     "url": "https://www.digikala.com/product/dkp-20710867/%D9%85%D8%A7%D9%86%DB%8C%D8%AA%D9%88%D8%B1-238-%D8%A7%DB%8C%D9%86%DA%86-%D8%A7%D9%84-%D8%AC%DB%8C-%D9%85%D8%AF%D9%84-24u411a-b/?variant_id=74011726",
-    "updated_at": "2026-07-28 08:54:15"
+    "updated_at": "2026-07-28 18:55:42"
+  },
+  {
+    "product_id": 110,
+    "seller_id": 1,
+    "price": "۱۸۴،۴۹۰،۰۰۰",
+    "url": "https://www.digikala.com/product/dkp-9422534/%DA%AF%D9%88%D8%B4%DB%8C-%D9%85%D9%88%D8%A8%D8%A7%DB%8C%D9%84-%D8%A7%D9%BE%D9%84-%D9%85%D8%AF%D9%84-iphone-14-ch-%D8%AF%D9%88-%D8%B3%DB%8C%D9%85-%DA%A9%D8%A7%D8%B1%D8%AA-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-128-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA-%D9%88-%D8%B1%D9%85-6-%DA%AF%DB%8C%DA%AF%D8%A7%D8%A8%D8%A7%DB%8C%D8%AA/",
+    "updated_at": "2026-07-28 18:55:44"
   }
 ]
