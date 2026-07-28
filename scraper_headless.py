@@ -238,25 +238,31 @@ def fetch_price_digikala(url):
         api_url    = f"https://api.digikala.com/v2/product/{product_id}/"
         resp       = requests.get(api_url, headers=HEADERS, timeout=8)
         if resp.status_code != 200: return None
-        data     = resp.json()
-        product  = data.get("data", {}).get("product", {})
-        variants = product.get("variants", [])
-        if not variants:
-            default_variant = product.get("default_variant", {})
-            price_info = default_variant.get("price", {}) if default_variant else {}
+        data    = resp.json()
+        product = data.get("data", {}).get("product", {})
+        fa_d    = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+
+        # اولویت با default_variant: همون وریانتی که این URL مشخصاً بهش
+        # اشاره می‌کنه (نه ارزون‌ترین بین همه‌ی رنگ/حافظه‌های محصول).
+        # قبلاً وقتی variants غیرخالی بود، مستقیم می‌رفت سراغ min(variants)
+        # و همین باعث می‌شد قیمت یه وریانت کاملاً متفاوت (نه همینی که لینکشو
+        # داریم) برگرده.
+        default_variant = product.get("default_variant", {})
+        if default_variant:
+            price_info = default_variant.get("price", {}) or {}
             price = (price_info.get("selling_price", 0) or 0) // 10
             if price > 0:
-                fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
                 return f"{price:,}".replace(",","،").translate(fa_d)
-            return None
+
+        # فالبک: اگه default_variant قیمتی نداشت، بین وریانت‌ها ارزون‌ترین رو بگیر
+        variants = product.get("variants", [])
         prices = []
         for v in variants:
             p = v.get("price", {})
             selling = (p.get("selling_price", 0) or 0) // 10
             if selling > 0: prices.append(selling)
         if prices:
-            n    = min(prices)
-            fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+            n = min(prices)
             return f"{n:,}".replace(",","،").translate(fa_d)
     except: pass
     return None
@@ -266,21 +272,42 @@ def fetch_price_generic(url):
         resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=8)
         if resp.status_code != 200: return None
         fa   = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩","01234567890123456789")
+        fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
         text = resp.text.translate(fa)
-        for m in re.finditer(r'"price"\s*:\s*"?(\d+)"?', text):
+
+        # جداکننده‌ی هزارگان منعطف - شامل کاما، کامای فارسی، و "٬" (جداکننده‌ی
+        # عربی که با الگوی قبلی شناخته نمی‌شد و باعث قطع شدن عدد می‌شد)
+        SEP = r"[,،٬٫\s]"
+        flexible_num = rf"\d(?:{SEP}?\d){{3,9}}"
+
+        # اولویت ۱: کلیدهای دقیق قیمت فروش (نه هر "price" عمومی که ممکنه مال
+        # آنالیتیکس/تبلیغ/محصولات مشابه کنار صفحه باشه، نه محصول اصلی)
+        for key in ["sellingPrice","selling_price","finalPrice","final_price","salePrice","sale_price"]:
+            m = re.search(rf'"{key}"\s*:\s*"?(\d+)"?', text)
+            if m:
+                n = int(m.group(1))
+                if 10000 <= n <= 9_999_999_999:
+                    n = n // 10 if n > 100_000_000 else n
+                    return f"{n:,}".replace(",","،").translate(fa_d)
+
+        # اولویت ۲: عدد کنار "تومان" با جداکننده‌ی منعطف
+        for pat in [rf'({flexible_num})\s*تومان', r'(\d{6,10})\s*تومان']:
+            m = re.search(pat, text)
+            if m:
+                raw = re.sub(r"[^\d]", "", m.group(1))
+                if raw:
+                    n = int(raw)
+                    if 10000 <= n <= 999_999_999:
+                        return f"{n:,}".replace(",","،").translate(fa_d)
+
+        # اولویت ۳ (آخرین راه‌حل، ریسک بالاتر): هر کلید عمومی "price" -
+        # فقط وقتی هیچ‌کدوم از روش‌های دقیق‌تر بالا جواب نداد
+        m = re.search(r'"price"\s*:\s*"?(\d+)"?', text)
+        if m:
             n = int(m.group(1))
             if 10000 <= n <= 9_999_999_999:
-                n    = n // 10 if n > 100_000_000 else n
-                fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+                n = n // 10 if n > 100_000_000 else n
                 return f"{n:,}".replace(",","،").translate(fa_d)
-        for pat in [r'(\d{1,3}(?:[,،]\d{3})+)\s*تومان', r'(\d{6,10})\s*تومان']:
-            m = re.search(pat, resp.text)
-            if m:
-                raw = m.group(1).replace("،","").replace(",","")
-                n   = int(raw)
-                if 10000 <= n <= 999_999_999:
-                    fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
-                    return f"{n:,}".replace(",","،").translate(fa_d)
     except: pass
     return None
 
