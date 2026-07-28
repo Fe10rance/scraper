@@ -318,13 +318,23 @@ def get_price(url):
 
 def fetch_prices():
     log("دریافت لیست محصولات از سایت...")
-    try:
-        secret = os.environ.get("PICKIN_SECRET", "PICKIN_SCRAPER_SECRET_2026")
-        url    = f"{SITE_API}?action=getProductsForScraper&secret={secret}"
-        resp   = requests.get(url, headers=HEADERS, timeout=15)
-        products = resp.json()
-    except Exception as e:
-        log(f"❌ خطا در دریافت محصولات: {e}")
+    secret = os.environ.get("PICKIN_SECRET", "PICKIN_SCRAPER_SECRET_2026")
+    url    = f"{SITE_API}?action=getProductsForScraper&secret={secret}"
+
+    products = None
+    max_attempts = 4
+    for attempt in range(1, max_attempts + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=45)
+            products = resp.json()
+            break
+        except Exception as e:
+            log(f"⚠️ تلاش {attempt}/{max_attempts} برای دریافت لیست محصولات شکست خورد: {e}")
+            if attempt < max_attempts:
+                time.sleep(5 * attempt)  # هر بار کمی بیشتر صبر کن
+
+    if products is None:
+        log("❌ بعد از چند تلاش، لیست محصولات دریافت نشد.")
         return []
 
     log(f"{len(products)} محصول دریافت شد")
