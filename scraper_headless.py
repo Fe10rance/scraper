@@ -11,6 +11,7 @@ import time
 import datetime
 import requests
 from pathlib import Path
+from urllib.parse import urlparse, parse_qs
 
 OUTPUT_DIR = Path("data")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -231,46 +232,96 @@ def fetch_technooff(max_products=50):
 
 # ===== قیمت از سایت‌های مختلف =====
 def fetch_price_digikala(url):
+    m = re.search(r'dkp-(\d+)', url)
+    if not m:
+        return None
+    product_id = m.group(1)
+
+    # اگه لینک به یک وریانت مشخص (رنگ/حافظه/...) اشاره می‌کنه، باید دقیقاً
+    # قیمت همون وریانت رو بگیریم — نه وریانت پیش‌فرض محصول. قبلاً کد
+    # variant_id توی URL رو کاملاً نادیده می‌گرفت و همیشه default_variant
+    # رو برمی‌گردوند؛ اگه وریانت پیش‌فرض دیجی‌کالا با وریانتی که واقعاً
+    # لینکش ثبت شده فرق داشت (مثلاً یه رنگ/حافظه دیگه)، هم قیمت غلط
+    # برمی‌گشت هم ممکن بود وریانت پیش‌فرض ناموجود باشه در حالی که وریانت
+    # واقعی موجود بود (باعث میشد اشتباهاً "ناموجود" ثبت بشه).
+    qs = parse_qs(urlparse(url).query)
+    target_variant_id = qs.get('variant_id', [None])[0]
+
+    api_url = f"https://api.digikala.com/v2/product/{product_id}/"
+    fa_d = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
+
+    def price_from(variant):
+        price_info = (variant or {}).get("price", {}) or {}
+        return (price_info.get("selling_price", 0) or 0) // 10
+
+    resp = None
+    for attempt in range(1, 4):
+        try:
+            resp = requests.get(api_url, headers=HEADERS, timeout=15)
+            if resp.status_code == 200:
+                break
+            if resp.status_code in (429, 500, 502, 503, 504):
+                log(f"    [digikala] HTTP {resp.status_code} برای dkp-{product_id} — تلاش {attempt}/3")
+                time.sleep(3 * attempt)
+                continue
+            log(f"    [digikala] HTTP {resp.status_code} برای dkp-{product_id} — توقف")
+            return None
+        except Exception as e:
+            log(f"    [digikala] خطای شبکه برای dkp-{product_id} (تلاش {attempt}/3): {type(e).__name__}: {e}")
+            time.sleep(3 * attempt)
+            continue
+
+    if resp is None or resp.status_code != 200:
+        log(f"    [digikala] بعد از چند تلاش، پاسخی از دیجی‌کالا برای dkp-{product_id} دریافت نشد")
+        return None
+
     try:
-        m = re.search(r'dkp-(\d+)', url)
-        if not m: return None
-        product_id = m.group(1)
-        api_url    = f"https://api.digikala.com/v2/product/{product_id}/"
-        resp       = requests.get(api_url, headers=HEADERS, timeout=8)
-        if resp.status_code != 200: return None
-        data    = resp.json()
-        product = data.get("data", {}).get("product", {})
-        fa_d    = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
+        data = resp.json()
+    except Exception as e:
+        log(f"    [digikala] پاسخ dkp-{product_id} JSON معتبر نبود: {e}")
+        return None
 
-        # اولویت با default_variant: همون وریانتی که این URL مشخصاً بهش
-        # اشاره می‌کنه (نه ارزون‌ترین بین همه‌ی رنگ/حافظه‌های محصول).
-        # قبلاً وقتی variants غیرخالی بود، مستقیم می‌رفت سراغ min(variants)
-        # و همین باعث می‌شد قیمت یه وریانت کاملاً متفاوت (نه همینی که لینکشو
-        # داریم) برگرده.
-        default_variant = product.get("default_variant", {})
-        if default_variant:
-            price_info = default_variant.get("price", {}) or {}
-            price = (price_info.get("selling_price", 0) or 0) // 10
+    product = data.get("data", {}).get("product", {})
+    if not product:
+        log(f"    [digikala] ساختار پاسخ dkp-{product_id} غیرمنتظره بود")
+        return None
+
+    # اولویت ۱: دقیقاً همون وریانتی که توی لینک مشخص شده
+    if target_variant_id:
+        all_variants = product.get("variants", []) or []
+        found = next((v for v in all_variants if str(v.get("id")) == str(target_variant_id)), None)
+        if found:
+            price = price_from(found)
             if price > 0:
-                return f"{price:,}".replace(",","،").translate(fa_d)
+                return f"{price:,}".replace(",", "،").translate(fa_d)
+            log(f"    [digikala] وریانت {target_variant_id} از dkp-{product_id} پیدا شد ولی قیمت نداشت (واقعاً ناموجود)")
+            return None
+        else:
+            log(f"    [digikala] وریانت {target_variant_id} توی لیست وریانت‌های dkp-{product_id} پیدا نشد — می‌رم سراغ پیش‌فرض")
 
-        # فالبک: اگه default_variant قیمتی نداشت، بین وریانت‌ها ارزون‌ترین رو بگیر
-        variants = product.get("variants", [])
-        prices = []
-        for v in variants:
-            p = v.get("price", {})
-            selling = (p.get("selling_price", 0) or 0) // 10
-            if selling > 0: prices.append(selling)
-        if prices:
-            n = min(prices)
-            return f"{n:,}".replace(",","،").translate(fa_d)
-    except: pass
+    # اولویت ۲: وریانت پیش‌فرض محصول (وقتی لینک variant_id نداشت)
+    default_variant = product.get("default_variant")
+    if default_variant:
+        price = price_from(default_variant)
+        if price > 0:
+            return f"{price:,}".replace(",", "،").translate(fa_d)
+
+    # اولویت ۳ (آخرین فالبک): ارزون‌ترین وریانت موجود بین همه‌ی وریانت‌ها
+    variants = product.get("variants", []) or []
+    prices = [p for p in (price_from(v) for v in variants) if p > 0]
+    if prices:
+        n = min(prices)
+        return f"{n:,}".replace(",", "،").translate(fa_d)
+
+    log(f"    [digikala] هیچ قیمتی برای dkp-{product_id} پیدا نشد (status محصول: {product.get('status', '?')})")
     return None
 
 def fetch_price_generic(url):
     try:
-        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=8)
-        if resp.status_code != 200: return None
+        resp = requests.get(url, headers={**HEADERS, "Accept": "text/html"}, timeout=15)
+        if resp.status_code != 200:
+            log(f"    [generic] HTTP {resp.status_code} برای {url[:60]}")
+            return None
         fa   = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩","01234567890123456789")
         fa_d = str.maketrans("0123456789","۰۱۲۳۴۵۶۷۸۹")
         text = resp.text.translate(fa)
@@ -308,7 +359,10 @@ def fetch_price_generic(url):
             if 10000 <= n <= 9_999_999_999:
                 n = n // 10 if n > 100_000_000 else n
                 return f"{n:,}".replace(",","،").translate(fa_d)
-    except: pass
+
+        log(f"    [generic] هیچ الگوی قیمتی توی صفحه پیدا نشد: {url[:60]}")
+    except Exception as e:
+        log(f"    [generic] خطا در {url[:60]}: {type(e).__name__}: {e}")
     return None
 
 def get_price(url):
