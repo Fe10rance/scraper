@@ -7,7 +7,7 @@
     "original_price": "۹،۹۰۰،۰۰۰",
     "discount_percent": 90,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "هدفون ریولینک مدل TQWE 3",
@@ -17,7 +17,7 @@
     "original_price": "۱۷،۰۰۰،۰۰۰",
     "discount_percent": 90,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "هدفون ریولینک مدل WOL Pro2",
@@ -27,7 +27,7 @@
     "original_price": "۱۸،۰۰۰،۰۰۰",
     "discount_percent": 90,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "هدفون بلوتوثی وونک مدل True 4",
@@ -37,7 +37,7 @@
     "original_price": "۱۸،۵۰۰،۰۰۰",
     "discount_percent": 90,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "هدفون ریولینک مدل ZWE Pro3",
@@ -47,7 +47,7 @@
     "original_price": "۲۰،۰۰۰،۰۰۰",
     "discount_percent": 90,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "هدفون ریولینک مدل RV--25 ENC",
@@ -57,17 +57,7 @@
     "original_price": "۳۲،۰۰۰،۰۰۰",
     "discount_percent": 90,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
-  },
-  {
-    "title": "شارژر فندکی 50 وات دو پورت وونک مدل VC--50 به همراه کابل USB-C",
-    "url": "https://www.digikala.com/product/dkp-18920694",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/f52ab69e63c489a770247aff302a3cde2400a599_1786575811.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۴۲۵،۳۸۰",
-    "original_price": "۱۲،۹۵۸،۰۰۰",
-    "discount_percent": 89,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "هدفون وونک مدل QSAW 4",
@@ -77,7 +67,7 @@
     "original_price": "۲۰،۸۰۰،۰۰۰",
     "discount_percent": 86,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "ساعت هوشمند 47 میلی متر ریولینک مدل RL-2 pro با بند سیلیکونی",
@@ -87,7 +77,7 @@
     "original_price": "۲۸،۵۰۰،۰۰۰",
     "discount_percent": 86,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "دوربین مداربسته تحت شبکه وونک مدل 5MP Pro",
@@ -97,7 +87,27 @@
     "original_price": "۴۱،۵۰۰،۰۰۰",
     "discount_percent": 83,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "ست گیمینگ بوستون مدل 0538",
+    "url": "https://www.digikala.com/product/dkp-22137818",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/aa17fb2ebd0ddd048292ba0220cdeddade2deaf1_1786455467.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۵۹۰،۰۰۰",
+    "original_price": "۶،۵۰۰،۰۰۰",
+    "discount_percent": 76,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:10"
+  },
+  {
+    "title": "ساعت هوشمند 48 میلی‌متری لونکـس مدل C͏2͏2͏UItra-Royal بند سیلیکونی",
+    "url": "https://www.digikala.com/product/dkp-22436991",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/449c5a695e353276a7b94a57c2226e51b721481f_1785929433.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۹۹۰،۰۰۰",
+    "original_price": "۷،۹۰۰،۰۰۰",
+    "discount_percent": 75,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "اسپیکر بلوتوثی قابل حمل مدل IIOO",
@@ -107,7 +117,7 @@
     "original_price": "۵،۴۹۰،۰۰۰",
     "discount_percent": 73,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "ساعت هوشمند 46 میلی متری مدل WX46 با بند سیلیکونی به همراه هدفون بلوتوثی",
@@ -117,37 +127,17 @@
     "original_price": "۸،۳۰۰،۰۰۰",
     "discount_percent": 67,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "کابل USB-C بنیوس مدل BE-CA11 طول 1متر",
-    "url": "https://www.digikala.com/product/dkp-21583529",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/e2038ef07883c7811e1fafe4cae1373249860e36_1773566667.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "title": "کابل USB-C بنیوس مدل BE-CA14 طول 1متر",
+    "url": "https://www.digikala.com/product/dkp-21583635",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/b8d2a5f5d893eb3484314aa92c490934783de146_1773568255.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "price": "۳۹۹،۰۰۰",
-    "original_price": "۱،۱۱۵،۵۰۰",
-    "discount_percent": 64,
+    "original_price": "۱،۰۳۸،۵۰۰",
+    "discount_percent": 62,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
-  },
-  {
-    "title": "فلش مموری سیویت مدل SEGO ظرفیت 64 گیگابایت ",
-    "url": "https://www.digikala.com/product/dkp-12405250",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/faa4285edd48482fcf4d97dd41bdfddb398c2e88_1699961966.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۹۹۹،۰۰۰",
-    "original_price": "۲،۶۷۳،۹۰۰",
-    "discount_percent": 63,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
-  },
-  {
-    "title": "فلش مموری کوئین تک مدل 101 ظرفیت 64 گیگابایت",
-    "url": "https://www.digikala.com/product/dkp-14051578",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/70e4f34f9266392afb53844987057d97150bc7c8_1704893436.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۸۷۵،۰۰۰",
-    "original_price": "۲،۲۳۸،۹۰۰",
-    "discount_percent": 61,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "کابل USB-C بنیوس مدل BE-CA09 طول 1متر",
@@ -157,17 +147,7 @@
     "original_price": "۱،۱۸۲،۱۰۰",
     "discount_percent": 58,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
-  },
-  {
-    "title": "پرینتر لیبل زن حرارتی ناب سل مدل شارژی کد NAAB-PI00666",
-    "url": "https://www.digikala.com/product/dkp-20820368",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/6346dd6830cea34da8544dec071ea9b43f9bfb49_1762198543.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۳۹۰،۰۰۰",
-    "original_price": "۳،۳۰۰،۰۰۰",
-    "discount_percent": 58,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "لیزر پوینتر کینگ لیزر مدل Lazer-303",
@@ -177,7 +157,17 @@
     "original_price": "۳،۰۰۰،۰۰۰",
     "discount_percent": 54,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
+  },
+  {
+    "title": "کابل تبدیل USB به USB-C بنیوس مدل BE-CA12 طول 1 متر",
+    "url": "https://www.digikala.com/product/dkp-21583551",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/d5c3ccf70c1285467e6cd086ae8e979306f989bd_1786575897.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۳۹۹،۰۰۰",
+    "original_price": "۸۴۶،۰۰۰",
+    "discount_percent": 53,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "دوربین مداربسته تحت شبکه وونک مدل M2 3mp",
@@ -187,7 +177,7 @@
     "original_price": "۱۰،۲۰۰،۰۰۰",
     "discount_percent": 52,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "دوربین فیلم برداری خودرو وای فو مدل A119 V3",
@@ -197,27 +187,27 @@
     "original_price": "۱۹،۰۰۰،۰۰۰",
     "discount_percent": 48,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "شارژر فندکی 55 وات دو پورت نوکسو مدل CCN‑6",
+    "url": "https://www.digikala.com/product/dkp-21536870",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/355d99c758733155b607cf1adf196148a917358d_1772085758.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۷۷۲،۲۰۰",
+    "original_price": "۱،۴۰۴،۰۰۰",
+    "discount_percent": 45,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "هدفون بلوتوثی انکر مدل Soundcore K20i با نویز کنسلینگ میکروفون (ENC)، درگاه شارژ USB Type-C، دارای کنترل لمسی، مقاوم در برابر پاشش آب با استاندارد",
     "url": "https://www.digikala.com/product/dkp-16994906",
     "image_url": "https://dkstatics-public.digikala.com/digikala-products/431635a681fa279daf72dce2c60d9530eb71859d_1786571882.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "price": "۱،۸۶۹،۰۰۰",
-    "original_price": "۳،۳۸۰،۴۰۰",
+    "original_price": "۳،۳۷۸،۹۰۰",
     "discount_percent": 45,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
-  },
-  {
-    "title": "ساعت هوشمند 47 میلی متری فنیرسی مدل S370i با بند سیلیکونی",
-    "url": "https://www.digikala.com/product/dkp-22043547",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/b2e097b5180a7dba18c9e75532b994a35da1fd91_1781697873.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۷،۹۹۹،۹۹۰",
-    "original_price": "۱۴،۵۴۵،۲۷۰",
-    "discount_percent": 45,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "دوربین فیلم برداری ورزشی اکن مدل H9R 4K",
@@ -227,7 +217,7 @@
     "original_price": "۱۷،۸۵۰،۰۰۰",
     "discount_percent": 45,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
     "title": "پاوربانک 45 وات انکر مدل A1638 ظرفیت 10000 میلی آمپر ساعت",
@@ -237,17 +227,27 @@
     "original_price": "۱۱،۳۱۴،۹۰۰",
     "discount_percent": 44,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "ساعت هوشمند 2 اینچی هترون مدل HSW270S با بند سیلیکونی",
-    "url": "https://www.digikala.com/product/dkp-21685634",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/698f91ea77d3414523ef85a2632cf15ce89870e0_1779793148.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۵،۱۰۰،۰۰۰",
-    "original_price": "۸،۹۷۶،۵۰۰",
+    "title": "هدفون بلوتوثی اپل مدل AirPods Pro 2nd Generation با نویز کنسلینگ فعال (ANC)، نویز کنسلینگ میکروفون (ENC)، درگاه شارژ USB Type-C، با قابلیت شارژ بی‌سیم، دارای میکروفون دوگانه از نوع Beamforming، مقاومت در برابر رطوبت و عرق",
+    "url": "https://www.digikala.com/product/dkp-12946785",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/306bc86010b379789efd00415d9103cc70d4f48a_1786533654.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲۹،۴۴۹،۰۰۰",
+    "original_price": "۵۲،۴۴۱،۹۰۰",
+    "discount_percent": 44,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "تلفن بی سیم گیگاست مدل AS405A",
+    "url": "https://www.digikala.com/product/dkp-115379",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/92e53c015106b90ec46d4bd0a2639eec7b493766_1786652472.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۸،۹۹۹،۹۰۰",
+    "original_price": "۳۳،۵۲۰،۰۰۰",
     "discount_percent": 43,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
     "title": "ساعت هوشمند 47 میلی متری فنیرسی مدل S370i با بند سیلیکونی",
@@ -257,47 +257,17 @@
     "original_price": "۱۴،۵۴۵،۲۷۰",
     "discount_percent": 42,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "فلش مموری هایک سمی مدل HS-USB-M200S USB3.0 ظرفیت 32 گیگابایت با رابط USB، USB 3.0",
-    "url": "https://www.digikala.com/product/dkp-19726551",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/9265537b48fa2615eed033638dff4c7d9746e860_1785354698.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۹۸۵،۰۰۰",
-    "original_price": "۱،۶۷۱،۴۰۰",
+    "title": "ماوس مخصوص بازی تسکو مدل TM 763",
+    "url": "https://www.digikala.com/product/dkp-7388892",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/433bd21100fc7b21652030c3784af44f656d3c1b_1786388716.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۰۴۹،۰۰۰",
+    "original_price": "۱،۷۷۵،۷۶۰",
     "discount_percent": 41,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
-  },
-  {
-    "title": "باتری نیم قلمی قابل شارژ کملیون مدل 1.5VLi-AAA650 بسته دو عددی",
-    "url": "https://www.digikala.com/product/dkp-17665140",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/520d2973a17a61d620e4df9c946603510a1f389b_1786388221.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۱۹۹،۰۰۰",
-    "original_price": "۲،۰۳۰،۰۰۰",
-    "discount_percent": 41,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
-  },
-  {
-    "title": "ساعت هوشمند 51 میلی‌متری هترون مدل HSW266Z با بند پلاستیک",
-    "url": "https://www.digikala.com/product/dkp-21682274",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/2ddb6163727e677983995b1dc3a019640b520488_1776696229.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۳،۷۰۰،۰۰۰",
-    "original_price": "۶،۲۸۷،۹۰۰",
-    "discount_percent": 41,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "ساعت هوشمند 46 میلی‌متری گلوریمی مدل GC Round با بند سیلیکونی",
-    "url": "https://www.digikala.com/product/dkp-21979954",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/cf928bedaf4a320b1ebaf4b9bee8d2451994772d_1781013724.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۵،۹۵۰،۰۰۰",
-    "original_price": "۱۰،۰۰۰،۰۰۰",
-    "discount_percent": 41,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "فلش مموری فیلیپس مدل FM21UA-F ظرفیت 32 گیگابایت با رابط USB 2.0، سرعت خواندن 30 مگابایت بر ثانیه، سرعت نوشتن 15 مگابایت بر ثانیه، مقاوم در برابر خش و اثر انگشت، سازگار با ویندوز، مک OS و لینوکس",
@@ -307,57 +277,67 @@
     "original_price": "۱،۶۶۱،۶۰۰",
     "discount_percent": 40,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
-    "title": "پاوربانک 22.5 وات ونشن مدل FHLB0 ظرفیت 20000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-20326346",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/34d8516ff55c7df06d387476964f0f3015a284ff_1756798825.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۰۰۰،۰۰۰",
-    "original_price": "۶،۶۴۶،۷۰۰",
+    "title": "اس اس دی اینترنال SATA III ورباتیم مدل VI550 S3 ظرفیت 512 گیگابایت",
+    "url": "https://www.digikala.com/product/dkp-20756653",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/c71ab4f3ff941795c5b0cbdb723e6554be63a315_1761379235.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۹،۲۰۰،۰۰۰",
+    "original_price": "۱۵،۲۳۴،۳۰۰",
     "discount_percent": 40,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "پایه پلی استیشن 5 اسلیم مدل کریستالی کد 215",
-    "url": "https://www.digikala.com/product/dkp-15967047",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/99a15e88b439fbfa20b288756f5d6ae63d65f888_1719958519.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۹۷۳،۹۱۰",
-    "original_price": "۱،۶۰۳،۱۶۰",
+    "title": "ساعت هوشمند 1.5 اینچی کیسلکت مدل KR 3 با بند چرمی به همراه بند اضافه ",
+    "url": "https://www.digikala.com/product/dkp-21924823",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/0b06e18de519e5adf492ffe2d450c73279dd88b9_1780397834.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۷،۹۹۹،۰۰۰",
+    "original_price": "۱۳،۰۰۸،۵۰۰",
     "discount_percent": 39,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "کیبورد تسکو مدل TK 8049",
-    "url": "https://www.digikala.com/product/dkp-18572105",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/b90f7d04c81a48041f18da99abfd7a6380e503c7_1786296586.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۴۹۹،۰۰۰",
-    "original_price": "۲،۴۵۱،۶۴۰",
-    "discount_percent": 39,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
-  },
-  {
-    "title": "هدفون بلوتوثی انکر مدل V20i بدون قابلیت نویز کنسلینگ، درگاه شارژ USB Type-C، دارای 4 میکروفون برای مکالمه شفاف، مقاوم در برابر آب و گرد و غبار استاندارد مقاومتی IP55",
-    "url": "https://www.digikala.com/product/dkp-17011092",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/71e43e3872a640c019a513d302b6376cb15724d2_1786571883.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۳،۰۹۹،۰۰۰",
-    "original_price": "۵،۰۰۶،۷۰۰",
+    "title": "پرینتر لیبل زن ناب سل مدل پرتابل حرارتی شارژی گوش دار کد NAAB-BL00222",
+    "url": "https://www.digikala.com/product/dkp-20659246",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/ea9ad0b7926006251c7753675afbb3aa025e1094_1760301605.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۸۵۰،۰۰۰",
+    "original_price": "۳،۰۰۰،۰۰۰",
     "discount_percent": 38,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
-    "title": "پاوربانک 30 وات انکر مدل A1259 ظرفیت 10000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-17128028",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/f7a5dde75fd5ae5676c42f7c00868b8322871c4d_1762158286.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۵،۷۰۰،۰۰۰",
-    "original_price": "۸،۹۲۳،۵۰۰",
+    "title": "اس اس دی اینترنال PCIe Gen3 x4 سیلیکون پاور مدل P34A60 ظرفیت 1 ترابایت",
+    "url": "https://www.digikala.com/product/dkp-14170349",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/f936cec2555ac376e02c7beb98b2d6684642a917_1779089272.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۹،۲۲۰،۰۰۰",
+    "original_price": "۳۱،۰۱۷،۴۰۰",
+    "discount_percent": 38,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "کابل USB-C بیسوس مدل Silky Series طول 1 متر",
+    "url": "https://www.digikala.com/product/dkp-21207964",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/e854148c0a64551993cf638d203a91902928d49b_1767339533.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۶۰۸،۰۰۰",
+    "original_price": "۹۵۱،۸۰۰",
     "discount_percent": 36,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:10"
+  },
+  {
+    "title": "پاوربانک 12 وات فیلیپس مدل DLP2552 ظرفیت 4900 میلی‌آمپرساعت",
+    "url": "https://www.digikala.com/product/dkp-21759969",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/df6f91a4204c55ebbf691a7b84d093f1ac19a98e_1777976392.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۳۰۰،۰۰۰",
+    "original_price": "۳،۶۰۵،۵۰۰",
+    "discount_percent": 36,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "ساعت هوشمند 1.32 اینچی کیسلکت مدل Lora Reno 3 با بند استیل",
@@ -367,37 +347,7 @@
     "original_price": "۱۴،۰۴۰،۱۰۰",
     "discount_percent": 36,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "ساعت هوشمند 1.46 اینچی کیسلکت مدل Elite2 با بند سیلیکونی",
-    "url": "https://www.digikala.com/product/dkp-21904223",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/c896e61600c05a629e9afcabc45c1e715352cb15_1780142841.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱۰،۴۹۹،۰۰۰",
-    "original_price": "۱۶،۳۹۷،۶۰۰",
-    "discount_percent": 36,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "ماوس بی سیم هترون مدل HMW390SL",
-    "url": "https://www.digikala.com/product/dkp-20832020",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/5faeac38f483f58751821810a8760fa3af803c05_1776585127.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۳۴۴،۷۲۰",
-    "original_price": "۲،۰۶۸،۸۰۰",
-    "discount_percent": 35,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
-  },
-  {
-    "title": "پاوربانک 45 وات کیو سی وای مدل PB20A ظرفیت 20000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-21065455",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/c55243d42cff358532b4a087d9e92e976d29282f_1765353177.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۵۸۵،۰۰۰",
-    "original_price": "۷،۰۰۰،۰۰۰",
-    "discount_percent": 35,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
     "title": "کیبورد هیسکا مدل HX-KE245",
@@ -407,7 +357,7 @@
     "original_price": "۹،۱۰۰،۰۰۰",
     "discount_percent": 35,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
     "title": "ماوس بی سیم هیسکا مدل HX-MO155",
@@ -417,7 +367,7 @@
     "original_price": "۲،۷۱۹،۰۰۰",
     "discount_percent": 34,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "شارژر دیواری 25 وات دو پورت بنیوس مدل BE-CH04",
@@ -427,57 +377,27 @@
     "original_price": "۱،۸۰۰،۰۰۰",
     "discount_percent": 33,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
-    "title": "فلش مموری هیوندای مدل H10 3.2 ظرفیت 32 گیگابایت با رابط USB 3.2",
-    "url": "https://www.digikala.com/product/dkp-19382054",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/b0e4659c460db5eaadb482da5e7fe35714c91dc3_1748775825.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۲۴۰،۰۰۰",
-    "original_price": "۱،۸۵۰،۷۰۰",
+    "title": "اس اس دی اینترنال PCIe Gen3 x4 لکسار مدل NM610 PRO ظرفیت 500 گیگابایت",
+    "url": "https://www.digikala.com/product/dkp-21571414",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/990362780522278eea8e4a10e279be9d25cc50f3_1773232434.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۳،۰۹۹،۰۰۰",
+    "original_price": "۱۹،۵۱۹،۴۰۰",
     "discount_percent": 33,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "پاوربانک 10.5 وات پرودو مدل Piano PDPBJ34BK ظرفیت 20000 میلی‌آمپرساعت",
-    "url": "https://www.digikala.com/product/dkp-21766631",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/4097c56d820b4799cd82614324e7b731f825ea1c_1778075460.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۹۹۹،۰۰۰",
-    "original_price": "۳،۰۰۰،۰۰۰",
+    "title": "اسپیکر بلوتوثی پرووان مدل PSB4976",
+    "url": "https://www.digikala.com/product/dkp-19937469",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/8943383659c731a5b2827e246aac21dfbfa3e7af_1755062592.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۹،۹۰۰،۰۰۰",
+    "original_price": "۲۹،۷۰۰،۰۰۰",
     "discount_percent": 33,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
-  },
-  {
-    "title": "کیبورد گیمینگ پی های تک مدل X260",
-    "url": "https://www.digikala.com/product/dkp-20881827",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/d0c1d5d7d3c4df0f6b83aaafb955f2a7641342b6_1786296596.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۲،۹۸۸،۰۰۰",
-    "original_price": "۴،۴۵۰،۰۰۰",
-    "discount_percent": 33,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
-  },
-  {
-    "title": "هدفون بلوتوثی انکر مدل SoundCore R50i A3949 بدون قابلیت نویز کنسلینگ، درگاه شارژ USB Type-C، دارای فناوری AI-Enhanced Calls برای کاهش نویز و بهبود مکالمات، مقاوم در برابر رطوبت و عرق",
-    "url": "https://www.digikala.com/product/dkp-11801878",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/98bb110cefc58dcc0ed96eff8914c2bb3d48d318_1786533653.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۹۷۵،۰۰۰",
-    "original_price": "۲،۹۰۰،۰۰۰",
-    "discount_percent": 32,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
-  },
-  {
-    "title": "هدفون بلوتوثی کیو سی وای مدل T13 TWS با نویز کنسلینگ میکروفون (ENC)، درگاه شارژ USB Type-C، دارای میکروفون دوگانه، دارای قابلیت جداسازی صدا، مقاوم در برابر رطوبت و عرق",
-    "url": "https://www.digikala.com/product/dkp-5856710",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/2961036b3f24c556d7253aa27ed52d3d52024c9b_1786533647.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۹۹۹،۰۰۰",
-    "original_price": "۲،۹۳۸،۰۰۰",
-    "discount_percent": 32,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
     "title": "پایه نگهدارنده گوشی موبایل و تبلت بنیوس مدل BE-MH01",
@@ -487,7 +407,7 @@
     "original_price": "۱،۰۰۰،۰۰۰",
     "discount_percent": 31,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "هدفون بلوتوثی گردنی هیسکا مدل FX-517",
@@ -497,17 +417,17 @@
     "original_price": "۲،۴۸۰،۰۰۰",
     "discount_percent": 31,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
-    "title": "کیبورد و ماوس بی سیم گرین مدل GKM-505W، سوییچ ممبران، Full-Size",
-    "url": "https://www.digikala.com/product/dkp-262840",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/168897a10903cff99e9500bbbd61358dcc2c94b0_1753698935.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۳،۰۱۹،۰۰۰",
-    "original_price": "۴،۳۴۸،۵۰۰",
+    "title": "پایه خنک کننده  لپ تاپ مدل TCLP 3102",
+    "url": "https://www.digikala.com/product/dkp-11345809",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/5411e9bd50828148610d510aadf1ac12ff4700fe_1684133163.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۸۵۰،۰۰۰",
+    "original_price": "۲،۶۶۹،۰۰۰",
     "discount_percent": 31,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "هدفون بلوتوثی گردنی هیسکا مدل FX-602",
@@ -517,77 +437,87 @@
     "original_price": "۵،۵۰۰،۰۰۰",
     "discount_percent": 31,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "کیبورد مخصوص بازی تسکو مدل GK 8127، سوییچ مکانیکال قهوه ای، Full-Size، نورپردازی RGB",
-    "url": "https://www.digikala.com/product/dkp-11710788",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/edf9f2f5f7db1a3afab35c0153f697cf55c334f5_1786296567.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۵،۳۹۹،۰۰۰",
-    "original_price": "۷،۷۷۴،۶۰۰",
+    "title": "اسپیکر قابل حمل فیلیپس مدل TAX3206",
+    "url": "https://www.digikala.com/product/dkp-21748228",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/570eeb052af5f0af9934f0712b3418b75a0f2bff_1777792286.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۸،۵۰۰،۰۰۰",
+    "original_price": "۲۷،۰۰۰،۰۰۰",
     "discount_percent": 31,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "پاوربانک 30 وات بیسوس مدل QPow2 ظرفیت 20000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-20147856",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/20ded7af7580276dfcba1668d166b780d1efada1_1755076826.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۶،۰۰۰،۰۰۰",
-    "original_price": "۸،۶۷۲،۲۰۰",
-    "discount_percent": 31,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "ماوس تسکو مدل TM 775GA",
-    "url": "https://www.digikala.com/product/dkp-19621442",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/c92ad198cf8ec5a69acde5e3f992120725531b37_1754309482.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۸۵۵،۰۰۰",
-    "original_price": "۱،۲۲۰،۱۰۰",
+    "title": "هدفون بلوتوثی فوربری مدل Dmooster D12 بدون قابلیت نویز کنسلینگ، درگاه شارژ USB Type-C",
+    "url": "https://www.digikala.com/product/dkp-17054712",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/b2c18122b572d8ef82b28ead904cfcfeebc507fd_1754237129.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۱۷۰،۰۰۰",
+    "original_price": "۳،۱۰۰،۰۰۰",
     "discount_percent": 30,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "ماوس بی سیم مخصوص بازی اونیکوما مدل CW928",
     "url": "https://www.digikala.com/product/dkp-20218442",
     "image_url": "https://dkstatics-public.digikala.com/digikala-products/77f50b3fedc45ada7a9384330b3b3db82554fc4e_1755691897.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۴۸۰،۰۰۰",
+    "price": "۴،۴۴۰،۰۰۰",
     "original_price": "۶،۳۷۹،۰۰۰",
     "discount_percent": 30,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "کیبورد و ماوس تسکو مدل TKM 8052 با حروف فارسی",
-    "url": "https://www.digikala.com/product/dkp-99218",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/20aed822c58d268ef2e1860e0cc6d95306bbb110_1753698155.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۴۹۰،۰۰۰",
-    "original_price": "۲،۱۰۴،۴۰۰",
+    "title": "هدفون بلوتوثی انکر مدل SoundCore V40i",
+    "url": "https://www.digikala.com/product/dkp-20206067",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/222279af19737af16bdf447caae9ef3cbe8b1fae_1786571905.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۶،۱۹۹،۰۰۰",
+    "original_price": "۸،۹۰۰،۰۰۰",
+    "discount_percent": 30,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "ماوس بی سیم تسکو مدل TM 780W",
+    "url": "https://www.digikala.com/product/dkp-19769142",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/56dd42adbbee89b37e9865c629c5a8ffab617146_1752141223.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۵۵۰،۰۰۰",
+    "original_price": "۲،۱۹۲،۱۰۰",
     "discount_percent": 29,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
-    "title": "پایه خنک کننده تنظیم پذیر لپ تاپ آیس کورل مدل A18",
-    "url": "https://www.digikala.com/product/dkp-21415778",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/3d3f35c77d909080621bf8809bd9aada624d1cc6_1770548716.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۸۰۹،۰۰۰",
-    "original_price": "۲،۵۳۶،۴۰۰",
-    "discount_percent": 29,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
-  },
-  {
-    "title": "یو پی اس مودم و دوربین مداربسته اسفیورد مدل U112 ظرفیت 12 ولت آمپر",
+    "title": "برق اضطراری مودم و دوربین مداربسته اسفیورد مدل U112 ظرفیت 12 ولت آمپر",
     "url": "https://www.digikala.com/product/dkp-9360863",
     "image_url": "https://dkstatics-public.digikala.com/digikala-products/1fe8f066e878a24b5191f878fecf41487dce608d_1662272006.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
     "price": "۱،۸۹۰،۰۰۰",
     "original_price": "۲،۶۵۰،۰۰۰",
     "discount_percent": 29,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
+  },
+  {
+    "title": "اسپیکر بلوتوثی قابل حمل هیسکا مدل B22",
+    "url": "https://www.digikala.com/product/dkp-21754594",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/e6cd664ae8ecd00d020efe5942be702239976011_1777885616.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۴۹۹،۰۰۰",
+    "original_price": "۳،۵۳۰،۰۰۰",
+    "discount_percent": 29,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:16"
+  },
+  {
+    "title": "پاوربانک 20 وات ای دیتا مدل C100 Digital Display ظرفیت 10000 میلی‌آمپرساعت",
+    "url": "https://www.digikala.com/product/dkp-21323606",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/fc44868a63aa3a1a3c3c41d99d763c5a35ab4fa5_1769421463.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۸۵۰،۰۰۰",
+    "original_price": "۴،۰۰۰،۰۰۰",
+    "discount_percent": 29,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "ساعت هوشمند 45 میلی متری گلوریمی مدل GC Slim با بند سیلیکونی و مغناطیسی ",
@@ -597,7 +527,7 @@
     "original_price": "۶،۰۰۰،۰۰۰",
     "discount_percent": 29,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "پاوربانک 22.5 وات گرین لاین مدل Nairo ظرفیت 20000 میلی‌آمپرساعت به همراه کابل تبدیل USB-A به USB-C",
@@ -607,67 +537,57 @@
     "original_price": "۳،۰۰۰،۰۰۰",
     "discount_percent": 28,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
-    "title": "پاوربانک 22.5 وات شیائومی مدل PB2020MI ظرفیت 20000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-20491421",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/46411f7e58da7cc62615294cc857af5e0f932fbf_1758446446.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۳،۶۰۰،۰۰۰",
-    "original_price": "۵،۰۰۰،۰۰۰",
-    "discount_percent": 28,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "مودم USB سیم کارتی قابل حمل زد تی ای مدل MF79U با پشتیبانی شبکه 4G LTE، قابلیت اتصال دو آنتن خارجی، چیپست Cortex-R7 و ورودی کارت حافظه microSD",
-    "url": "https://www.digikala.com/product/dkp-2233864",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/8b8c8f5c4ac2275e64869c797b1b1cc966870363_1786388699.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۵،۵۹۰،۰۰۰",
-    "original_price": "۷،۶۲۹،۰۰۰",
+    "title": "شارژر دیواری 67 وات هیسکا مدل H-167EU",
+    "url": "https://www.digikala.com/product/dkp-18063373",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/2018b0e6d3b0279466f14336fa6bd14dbe97b488_1786575812.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۱۹۹،۰۰۰",
+    "original_price": "۳،۰۰۰،۰۰۰",
     "discount_percent": 27,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
-    "title": "پایه نگهدارنده گوشی موبایل ریمکس مدل RM-C03 Pro",
-    "url": "https://www.digikala.com/product/dkp-20062787",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/49bbde02d59e6f4c426137ef26bbd9f2dffe631d_1786653624.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۶۹۹،۰۰۰",
-    "original_price": "۹۵۰،۰۰۰",
+    "title": "ساعت هوشمند 36 میلی‌متری های فیوچر مدل FutureGo Mix 2 با بند سیلیکونی",
+    "url": "https://www.digikala.com/product/dkp-21057962",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/ab7b4820cba9e97fec9bff10ab7ad44d95755b6f_1765268151.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۲۰۰،۰۰۰",
+    "original_price": "۳،۰۰۰،۰۰۰",
+    "discount_percent": 27,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:13"
+  },
+  {
+    "title": "پاوربانک 130 وات هیسکا مدل HP-227PD ظرفیت 20000 میلی‌آمپرساعت",
+    "url": "https://www.digikala.com/product/dkp-21662828",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/4920f5af638c66e7449d4a75826dafeb0a567ea3_1776329461.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۸،۹۹۹،۰۰۰",
+    "original_price": "۱۲،۲۰۰،۰۰۰",
     "discount_percent": 26,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
-    "title": "ماوس بی‌ سیم لاجیتک مدل M170",
-    "url": "https://www.digikala.com/product/dkp-141253",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/28030f3a455e2b9e8314c18f04883624b219fbb4_1753698360.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۶۸۸،۰۰۰",
-    "original_price": "۲،۲۸۷،۴۰۰",
-    "discount_percent": 26,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
-  },
-  {
-    "title": "هدفون بلوتوثی انکر مدل Soundcore Q11i بدون قابلیت نویز کنسلینگ، درگاه شارژ USB Type-C، دارای میکروفون داخلی، شارژ سریع",
-    "url": "https://www.digikala.com/product/dkp-18496625",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/e2b9573a93bd8ddaede0f38518e49fd56c4363df_1786571895.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۳۷۹،۰۰۰",
-    "original_price": "۵،۹۱۲،۷۰۰",
-    "discount_percent": 26,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "پایه خنک کننده هترون مدل HCP120",
-    "url": "https://www.digikala.com/product/dkp-117233",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/742633.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۲،۱۳۶،۰۰۰",
-    "original_price": "۲،۸۴۸،۰۰۰",
+    "title": "کیبورد ارگونومیک هترون مدل HK181",
+    "url": "https://www.digikala.com/product/dkp-21658209",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/2d3625d545efc0b474869308a87da0271434d1b0_1786296600.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۶۵۰،۰۰۰",
+    "original_price": "۲،۲۰۰،۰۰۰",
     "discount_percent": 25,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:13"
+  },
+  {
+    "title": " کارت حافظه هیوندای مدل A1 کلاس 10 استاندارد UHS-I U3 سرعت 100MBps ظرفیت 256 گیگابایت",
+    "url": "https://www.digikala.com/product/dkp-22082941",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/7c64816ae19079f7f110c6aa5b738288b6ed8eec_1782200813.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۵،۵۹۰،۰۰۰",
+    "original_price": "۷،۴۹۹،۴۰۰",
+    "discount_percent": 25,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
     "title": "پاوربانک 35 وات هیسکا مدل HP-228PD ظرفیت 20000 میلی‌آمپرساعت",
@@ -677,27 +597,7 @@
     "original_price": "۷،۵۹۰،۰۰۰",
     "discount_percent": 25,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "پاوربانک مک دودو مدل MC-426 ظرفیت 10000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-14499060",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/54b749af3cf7607ea54a2d5b6b02c1feaff5d5b9_1754253165.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۲،۹۷۹،۲۰۰",
-    "original_price": "۳،۹۲۰،۰۰۰",
-    "discount_percent": 24,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
-  },
-  {
-    "title": "کیبورد و ماوس مافی مدل X100",
-    "url": "https://www.digikala.com/product/dkp-20565395",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/15750350360249846c5bdfebf8ff59f3765963d4_1786296594.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۲،۵۷۰،۰۰۰",
-    "original_price": "۳،۳۳۳،۹۰۰",
-    "discount_percent": 23,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:18"
   },
   {
     "title": "پاوربانک 18 وات شیائومی مدل Redmi  ظرفیت 20000 میلی‌آمپرساعت",
@@ -707,37 +607,37 @@
     "original_price": "۳،۵۰۰،۰۰۰",
     "discount_percent": 23,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "کارت خوان هارمن مدل HR-ALL IN ONE 100 ",
-    "url": "https://www.digikala.com/product/dkp-12641446",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/afad87d76560c7fd62955e495cb7b47eb5f95b7a_1694383925.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۴۰۸،۰۰۰",
-    "original_price": "۱،۸۰۰،۰۰۰",
+    "title": "ویدئو پروژکتور بنیوس مدل BE-VP02 ",
+    "url": "https://www.digikala.com/product/dkp-15199149",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/97e50f75e4a580a286e01674184165b4cb2ddb57_1713698331.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۹،۹۰۰،۰۰۰",
+    "original_price": "۲۶،۰۰۰،۰۰۰",
+    "discount_percent": 23,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "فلش مموری فیلیپس مدل FM10UA-B 3.2 ظرفیت 32 گیگابایت با رابط USB 3.2",
+    "url": "https://www.digikala.com/product/dkp-19233989",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/792da88daa872d2f442c18de0f5e051b363283d1_1785354696.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۲۷۹،۰۰۰",
+    "original_price": "۱،۶۴۷،۷۰۰",
     "discount_percent": 22,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
-    "title": "پاوربانک 65 وات انرجایزر مدل XP30001PD ظرفیت 30000 میلی‌آمپرساعت",
-    "url": "https://www.digikala.com/product/dkp-21579342",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/0332b888386ab7574f55b280ccaadf1bfe264b96_1773475193.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۷،۸۴۹،۰۰۰",
-    "original_price": "۹،۹۹۰،۰۰۰",
+    "title": "شارژر بی‌سیم 15 وات فوربری مدل A8",
+    "url": "https://www.digikala.com/product/dkp-17035931",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/25030fcd56b7c526f99c037f0837d23c5c321cf0_1757322373.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۵۸۰،۰۰۰",
+    "original_price": "۲،۰۰۰،۰۰۰",
     "discount_percent": 21,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "پایه نگهدارنده لپ تاپ فوربری مدل 4BH31VL94M",
-    "url": "https://www.digikala.com/product/dkp-16822187",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/4eb00b8358ebd17d44da2795b6471159e6016e1d_1728288033.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۸۰۰،۰۰۰",
-    "original_price": "۱،۰۰۰،۰۰۰",
-    "discount_percent": 20,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
     "title": "ماوس و کیبورد بی سیم تسکو مدل TKM 7027W",
@@ -747,17 +647,47 @@
     "original_price": "۱،۹۲۰،۶۰۰",
     "discount_percent": 20,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:10"
   },
   {
-    "title": "هدست بلوتوثی تسکو مدل TH 5379",
-    "url": "https://www.digikala.com/product/dkp-12953587",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/720328a1faa22660e57337ebda25a9e85a129da6_1754251315.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۳،۲۷۵،۰۰۰",
-    "original_price": "۴،۰۹۷،۵۰۰",
+    "title": "هارد دیسک اکسترنال اِل‌اُ مدل  happy galaxy colorful ظرفیت یک ترابایت",
+    "url": "https://www.digikala.com/product/dkp-12058953",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/c383196e144cfc7e60a4e9558336a7bdb211cae5_1754250323.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۱،۹۹۹،۰۰۰",
+    "original_price": "۱۴،۹۵۰،۰۰۰",
     "discount_percent": 20,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "مانیتور 24 اینچ اینوورس مدل PS24",
+    "url": "https://www.digikala.com/product/dkp-20667044",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/511be524596c82efd14f87ac6d2119edc5a9665a_1760370406.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۴،۴۹۹،۰۰۰",
+    "original_price": "۱۸،۰۳۴،۰۰۰",
+    "discount_percent": 20,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "ساعت هوشمند 45 میلی‌متری گوگل مدل Pixel Watch 3 با بند سیلیکونی",
+    "url": "https://www.digikala.com/product/dkp-22229778",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/429744a86aef0166642b4dbf77664cc3efcb7eaa_1783849653.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۵۶،۰۰۰،۰۰۰",
+    "original_price": "۷۰،۰۰۰،۰۰۰",
+    "discount_percent": 20,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "پرینتر اپسون رنگی تک کاره با چاپ جوهرافشان مدل EcoTank L18050، سایز چاپ A3، مجهز به پورت USB",
+    "url": "https://www.digikala.com/product/dkp-15326199",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/4f15359ccbc0462de398ca58a942968c56409ab0_1754254106.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۱۷،۸۷۰،۰۰۰",
+    "original_price": "۱۴۶،۷۵۱،۶۰۰",
+    "discount_percent": 20,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
     "title": "پایه خنک کننده لپ تاپ دارای پورت USB تسکو مدل TCLP 3112 با قابلیت تنظیم ارتفاع",
@@ -767,7 +697,7 @@
     "original_price": "۲،۴۳۹،۰۰۰",
     "discount_percent": 18,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "هدفون بلوتوثی کیو سی وای مدل T13 ANC با قابلیت نویز کنسلینگ فعال (ANC)، نویز کنسلینگ میکروفون (ENC)، درگاه شارژ USB Type-C، دارای 4 میکروفون، پشتیبانی از فرمان لمسی، مقاوم در برابر رطوبت و عرق",
@@ -777,37 +707,7 @@
     "original_price": "۲،۶۱۶،۹۰۰",
     "discount_percent": 18,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
-  },
-  {
-    "title": "ساعت هوشمند تی سی اچ مدل TCH Z40",
-    "url": "https://www.digikala.com/product/dkp-12560993",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/87de97324abb5ac2ed767f4ee7df38816fa213ff_1754250983.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۱۰۰،۰۰۰",
-    "original_price": "۴،۹۸۰،۰۰۰",
-    "discount_percent": 18,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "پاوربانک ای دیتا مدل P20000QCD ظرفیت 20000 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-4170850",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/adacc0d39b3d9d54d03b047bf91b96109c9ab9b2_1754244116.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۱۵۰،۰۰۰",
-    "original_price": "۵،۰۰۰،۰۰۰",
-    "discount_percent": 17,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "هدفون بلوتوثی جی بی ال مدل Tune 770 NC با نویز کنسلینگ فعال (ANC)، نویز کنسلینگ میکروفون (ENC)، درگاه شارژ USB Type-C، امکان اتصال از طریق جک 3.5 میلی متری صدا، دارای میکروفون داخلی و قابلیت اتصال به دو دستگاه به‌طور همزمان",
-    "url": "https://www.digikala.com/product/dkp-11696761",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/08e667f03ccf71b497df17377f85f6435055e045_1745824996.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱۱،۸۶۹،۰۰۰",
-    "original_price": "۱۴،۳۰۰،۰۰۰",
-    "discount_percent": 17,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
     "title": "ساعت هوشمند 52 میلی متری گلوریمی مدل GX Running با بند سیلیکونی",
@@ -817,7 +717,17 @@
     "original_price": "۱۵،۰۰۰،۰۰۰",
     "discount_percent": 17,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "رم لپ تاپ DDR5 تک کاناله 5600 مگاهرتز CL46 کروشیال مدل CT8 ظرفیت 8 گیگابایت",
+    "url": "https://www.digikala.com/product/dkp-20047652",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/31182e811be88436eab39fc975cb67972a2417c7_1754300229.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۸،۸۰۰،۰۰۰",
+    "original_price": "۲۲،۵۵۹،۰۰۰",
+    "discount_percent": 17,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
     "title": "پاوربانک 22.5 وات تی سی اچ مدل Compact 2020 ظرفیت 20000 میلی‌آمپرساعت به همراه 2 عدد کابل USB-C / لایتنینگ",
@@ -827,67 +737,47 @@
     "original_price": "۴،۶۰۰،۰۰۰",
     "discount_percent": 16,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "رم دسکتاپ تک کاناله 3200 مگاهرتز CL22 پتریوت مدل PSD ظرفیت 8 گیگابایت",
-    "url": "https://www.digikala.com/product/dkp-14203788",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/447f2e057c6db8c27d5e76a587ecc3f55a27ddbb_1706016883.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۹،۸۱۹،۰۰۰",
-    "original_price": "۱۱،۷۵۸،۹۰۰",
+    "title": "مادربرد ایسوس مدل PRIME B660-PLUS D4 ",
+    "url": "https://www.digikala.com/product/dkp-7928135",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/e7d24439d802f3eb8c77f77e604de14b0544cd95_1645539594.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲۵،۸۵۰،۰۰۰",
+    "original_price": "۳۰،۸۶۸،۹۰۰",
     "discount_percent": 16,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
-    "title": "هاب 4 پورت USB 3.0 اکی یس مدل USB3000",
-    "url": "https://www.digikala.com/product/dkp-14883907",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/9ab5fdf5887184e93b7dd1174a27ab59c7717331_1710975853.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۷۸۲،۰۰۰",
-    "original_price": "۹۲۰،۰۰۰",
+    "title": "ساعت هوشمند 43 میلی‌متری تی سی اچ مدل Z10 plus با بند سیلیکونی",
+    "url": "https://www.digikala.com/product/dkp-21810249",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/9ebd5f1be5f31eaa04c4d5a7dfd6dca0995eb8c4_1778934486.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۲۰۰،۰۰۰",
+    "original_price": "۲،۶۰۰،۰۰۰",
     "discount_percent": 15,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:13"
   },
   {
-    "title": "پاوربانک بی سیم 25 وات تی سی اچ مدل Elite 1025W ظرفیت 10000 میلی‌آمپرساعت",
-    "url": "https://www.digikala.com/product/dkp-21879700",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/beb880c01c1f50daeedd403261d6acf5c06923b7_1779687641.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۳۰۰،۰۰۰",
-    "original_price": "۵،۰۳۰،۰۰۰",
-    "discount_percent": 15,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "ساعت هوشمند گلوریمی مدل GS1 Pro",
-    "url": "https://www.digikala.com/product/dkp-11957036",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/1e8d153b473d81ca4510465ed634ab407c4571fd_1754250256.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۴،۷۰۰،۰۰۰",
-    "original_price": "۵،۵۰۰،۰۰۰",
-    "discount_percent": 15,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "پاوربانک بیسوس مدل EnterGeek GP12 145w ظرفیت 20800 میلی آمپر ساعت",
-    "url": "https://www.digikala.com/product/dkp-20622196",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/a84109c7d94c96ed04d7fa4306d5f1913d2c0f89_1759929094.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱۰،۹۰۰،۰۰۰",
-    "original_price": "۱۲،۸۹۹،۰۰۰",
-    "discount_percent": 15,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "ساعت هوشمند 46 میلی‌متری شیائومی مدل Smart Band 9 Active، کنترل موسیقی، کنترل سطح اکسیژن خون، شمارش ضربان قلب، پایش وضعیت خواب، با بند پلاستیکی",
-    "url": "https://www.digikala.com/product/dkp-17681122",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/85a986705252548e703d11a1e135653543d41162_1747411553.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۳،۹۴۹،۹۰۰",
-    "original_price": "۴،۵۹۰،۰۰۰",
+    "title": "پاوربانک 45 وات تی سی اچ مدل Compact 2045 ظرفیت 20000 میلی‌آمپرساعت",
+    "url": "https://www.digikala.com/product/dkp-21866518",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/9c4b9c8fd218b806e6352b222de8d19074b965a3_1779517833.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۴،۳۱۰،۰۰۰",
+    "original_price": "۵،۰۰۰،۰۰۰",
     "discount_percent": 14,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
+    "extracted_at": "2026-08-15 03:32:16"
+  },
+  {
+    "title": "ساعت هوشمند 1.39اینچ هایفیوچر مدل flex2 با بند سیلیکون ",
+    "url": "https://www.digikala.com/product/dkp-18565149",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/5a59ad56eb75d4ef80dae153c6a229e780830a37_1744435979.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۶۰۰،۰۰۰",
+    "original_price": "۳،۰۰۰،۰۰۰",
+    "discount_percent": 13,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "پاوربانک بیسوس مدل Airpow PPAP20K ظرفیت 20000 میلی آمپر ساعت",
@@ -897,17 +787,7 @@
     "original_price": "۴،۰۰۰،۰۰۰",
     "discount_percent": 13,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:30"
-  },
-  {
-    "title": "کارت خوان هارمن مدل MC50",
-    "url": "https://www.digikala.com/product/dkp-9484467",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/56ba3a5e84dc8214270d35116f6d17df56c6f5c3_1663424189.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۵۵۴،۰۰۰",
-    "original_price": "۶۳۰،۰۰۰",
-    "discount_percent": 12,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "پایه پلی استیشن 5 مدل کریستال",
@@ -917,7 +797,17 @@
     "original_price": "۱،۱۴۳،۴۱۰",
     "discount_percent": 12,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:23"
+    "extracted_at": "2026-08-15 03:32:10"
+  },
+  {
+    "title": "هاب 4 پورت USB 3.0 هارمن مدل HR-USBC3000",
+    "url": "https://www.digikala.com/product/dkp-17737126",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/0c80dc8b730f55f9867168413905cc8ccc415e02_1734383308.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲،۳۷۶،۰۰۰",
+    "original_price": "۲،۷۰۰،۰۰۰",
+    "discount_percent": 12,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "پاوربانک فیلیپس مدل DLP7721C ظرفیت 20000 میلی آمپر ساعت",
@@ -927,27 +817,7 @@
     "original_price": "۳،۷۰۰،۰۰۰",
     "discount_percent": 12,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
-  },
-  {
-    "title": "ساعت هوشمند امیزفیت مدل Pop 3S دارای قابلیت های کنترل موسیقی (Music Player)، قابلیت مکالمه از طریق بلوتوث بند سیلیکون",
-    "url": "https://www.digikala.com/product/dkp-15569306",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/976647e3efc456914a7746e6244cec7dc4ffe2cf_1754254504.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۶،۵۰۰،۰۰۰",
-    "original_price": "۷،۳۹۱،۳۰۰",
-    "discount_percent": 12,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
-  },
-  {
-    "title": "ساعت هوشمند ورنا مدل W45 Max",
-    "url": "https://www.digikala.com/product/dkp-14398244",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/740164578bcd184b5f6f41fd0eb92dac20d453e0_1738580917.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱،۵۳۰،۰۰۰",
-    "original_price": "۱،۷۰۰،۰۰۰",
-    "discount_percent": 10,
-    "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
     "title": "ساعت هوشمند ورنا مدل Ultra pack 01 به همراه هندزفری بیسیم دارای قابلیت های قابلیت مکالمه از طریق بلوتوث، کنترل موسیقی (Music Player)، پشتیبانی از زبان فارسی در منو و سیستم‌عامل بند سیلیکون",
@@ -957,27 +827,37 @@
     "original_price": "۳،۱۴۰،۰۰۰",
     "discount_percent": 10,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "پرزنتر باسئوس مدل ACFYB-0G",
-    "url": "https://www.digikala.com/product/dkp-3929519",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/082e40f361d1f26f62bee396c1c560602cebc68b_1607303311.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۲،۰۵۰،۰۰۰",
-    "original_price": "۲،۲۴۰،۰۰۰",
-    "discount_percent": 8,
+    "title": "ساعت هوشمند 49 میلی‌ متری تی سی اچ مدل Z10 Pro Swift با بند سیلیکونی",
+    "url": "https://www.digikala.com/product/dkp-17664580",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/d236bb7a9b0a441d6c5b682747c0c8ea342088a0_1754238383.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۳،۶۰۰،۰۰۰",
+    "original_price": "۴،۰۰۰،۰۰۰",
+    "discount_percent": 10,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:28"
+    "extracted_at": "2026-08-15 03:32:16"
   },
   {
-    "title": "اس اس دی اینترنال PCIe Gen3 x4 ایکس انرژی مدل FALCON ظرفیت 512 گیگابایت",
-    "url": "https://www.digikala.com/product/dkp-16503787",
-    "image_url": "https://dkstatics-public.digikala.com/digikala-products/f89569cde20fedb76c391591f1b823f9cf70b0d4_1764342777.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-    "price": "۱۲،۹۰۰،۰۰۰",
-    "original_price": "۱۳،۸۰۰،۰۰۰",
+    "title": "دوربین مداربسته تحت شبکه شیائومی C301 بی‌سیم با دید در شب رنگی، تشخیص انسان مبتنی بر هوش مصنوعی، چرخش دو محوره 360 درجه، مکالمه دوطرفه و رمزگذاری AES-128",
+    "url": "https://www.digikala.com/product/dkp-18841311",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/bc67d9c563ed4b1037ca10fa23e93e779e50469b_1744097900.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۵،۵۹۹،۹۰۰",
+    "original_price": "۶،۱۸۸،۰۰۰",
+    "discount_percent": 10,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "لپ تاپ 16 اینچی اچ‌ پی مدل OmniBook X 16-aw0033dx-Core Ultra 7 255H-RTX4050 6GB-32GB DDR5 5600MHz-2TB SSD-OLED-Touch-Backlit-W ",
+    "url": "https://www.digikala.com/product/dkp-22071612",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/2d0701b663e1119ee14dd59cd930ccbb3c8863f4_1782047994.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۳۳۹،۹۹۹،۰۰۰",
+    "original_price": "۳۶۵،۰۰۰،۰۰۰",
     "discount_percent": 7,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:32"
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
     "title": "کابل تبدیل USB-C به USB-C انکر مدل A82E2 طول 0.9 متر با توان 240 وات",
@@ -987,7 +867,97 @@
     "original_price": "۱،۹۵۰،۰۰۰",
     "discount_percent": 6,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:13"
+  },
+  {
+    "title": "ساعت هوشمند 47 میلی متری شیائومی مدل Watch S4 بند سیلیکون",
+    "url": "https://www.digikala.com/product/dkp-18923424",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/6dae62b24645a48e0a95655c60d5791b06ee6f4c_1754241335.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۳۱،۹۹۹،۹۰۰",
+    "original_price": "۳۳،۹۸۰،۰۰۰",
+    "discount_percent": 6,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "تبلت 11.2 اینچ شیائومی مدل Pad 7 Wi-Fi ظرفیت 256 گیگابایت و رم 8 گیگابایت",
+    "url": "https://www.digikala.com/product/dkp-18860445",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/9d1dec61531005c1266508cbadecce0399a103fc_1771426143.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۵۸،۹۹۹،۰۰۰",
+    "original_price": "۶۲،۵۰۰،۰۰۰",
+    "discount_percent": 6,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "لپ تاپ 15.6 اینچی لنوو مدل V15 G4 IRU-i5 13420H-8GB DDR4 3200MHz-512GB SSD-TN",
+    "url": "https://www.digikala.com/product/dkp-20601745",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/aba6dd6e484cd592f1588395d86ad323fb3d757f_1759677921.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۹۲،۹۹۰،۰۰۰",
+    "original_price": "۹۹،۰۰۰،۰۰۰",
+    "discount_percent": 6,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "لپ تاپ 15.6 اینچی ایسر مدل Aspire 15 A15-51M-78MW-i7 13620H-16GB LPDDR5 4800MHz-512GB SSD-Fingerprint-Backlit",
+    "url": "https://www.digikala.com/product/dkp-22228319",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/8d589aedf9675f06e71fe5da31d5ff7036247263_1783846821.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱۱۷،۳۹۹،۰۰۰",
+    "original_price": "۱۲۵،۰۰۰،۰۰۰",
+    "discount_percent": 6,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "لپ تاپ 16 اینچی ایسوس مدل TUF Gaming F16 FX608JMR-F16I75060-i7 14650HX-RTX5060 8GB-32GB DDR5 5600MHz-1TB SSD-FHD 165Hz-W",
+    "url": "https://www.digikala.com/product/dkp-20177660",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/461ccc868f9796deff60f9402c58c2045b53f881_1786538647.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۳۲۲،۹۰۰،۰۰۰",
+    "original_price": "۳۴۲،۰۰۰،۰۰۰",
+    "discount_percent": 6,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "پرینتر لیزری اچ پی مدل Laser 107a",
+    "url": "https://www.digikala.com/product/dkp-16724969",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/ff47fab6abdc5825a6706dfb26d244059ae047ea_1726489473.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲۱،۷۰۰،۰۰۰",
+    "original_price": "۲۲،۷۸۰،۰۰۰",
+    "discount_percent": 5,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "لپ تاپ 15.6 اینچی اچ‌ پی مدل fc0047nq15-Ryzen 3 7320U-8GB LPDDR5 5500MHz-512GB SSD",
+    "url": "https://www.digikala.com/product/dkp-22290674",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/fec4d5793b2d429363557430722d5c98db60dc45_1784532344.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۸۰،۴۹۹،۰۰۰",
+    "original_price": "۸۵،۰۰۰،۰۰۰",
+    "discount_percent": 5,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "لپ تاپ 16 اینچی لنوو مدل Legion Pro 7 16IAX10H-Core Ultra 9 275HX-RTX5090 24GB-32GB DDR5-1TB SSD-WQXGA OLED 240Hz-W - کاستوم شده",
+    "url": "https://www.digikala.com/product/dkp-21951827",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/6c703cf0a62ada38bc1069e041c36bff551606b1_1780745743.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۸۹۸،۷۹۰،۰۰۰",
+    "original_price": "۹۴۹،۷۰۰،۰۰۰",
+    "discount_percent": 5,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
+  },
+  {
+    "title": "قلم نوری ایکس پی پن مدل Note Plus",
+    "url": "https://www.digikala.com/product/dkp-2731102",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/120702039.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۲۶،۸۰۰،۰۰۰",
+    "original_price": "۲۷،۹۰۰،۰۰۰",
+    "discount_percent": 4,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
   },
   {
     "title": "فلش مموری سن دیسک مدل CZ73 ظرفیت 32 گیگابایت با بدنه فلزی، رابط USB 3.0 و سرعت انتقال 150 مگابایت بر ثانیه، سازگار با ویندوز و مک و مناسب موبایل، تبلت، لپ‌تاپ و تلویزیون",
@@ -997,6 +967,36 @@
     "original_price": "۱،۵۸۰،۰۰۰",
     "discount_percent": 3,
     "seller": "دیجی‌کالا",
-    "extracted_at": "2026-08-14 04:43:26"
+    "extracted_at": "2026-08-15 03:32:10"
+  },
+  {
+    "title": "اس اس دی اینترنال PCIe Gen3 x4 سیلیکون پاور مدل P34A60 ظرفیت 128 گیگابایت",
+    "url": "https://www.digikala.com/product/dkp-14184872",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/f936cec2555ac376e02c7beb98b2d6684642a917_1778934886.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۶،۲۹۰،۰۰۰",
+    "original_price": "۶،۵۰۰،۰۰۰",
+    "discount_percent": 3,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:18"
+  },
+  {
+    "title": "لیزر پوینتر سان مدل sun",
+    "url": "https://www.digikala.com/product/dkp-21506302",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/a817b6681a84ac68aedadd17e15138974527c04a_1771699742.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۱،۱۷۵،۰۰۰",
+    "original_price": "۱،۱۹۹،۰۰۰",
+    "discount_percent": 2,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:10"
+  },
+  {
+    "title": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRU8-i3 1315U-8GB LPDDR5-512GB SSD-TN",
+    "url": "https://www.digikala.com/product/dkp-19297225",
+    "image_url": "https://dkstatics-public.digikala.com/digikala-products/82df008d266afe92faabc35863670fbcaf5c0f5c_1786538649.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+    "price": "۷۹،۹۹۰،۰۰۰",
+    "original_price": "۸۲،۰۰۰،۰۰۰",
+    "discount_percent": 2,
+    "seller": "دیجی‌کالا",
+    "extracted_at": "2026-08-15 03:32:21"
   }
 ]
